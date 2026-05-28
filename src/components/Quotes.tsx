@@ -75,7 +75,7 @@ export function Quotes() {
     <section id="whispers" className="relative bg-curtain py-24 px-6 md:px-12 film-grain">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <div className="font-poster text-sm tracking-[0.4em] text-accent mb-4">WHISPERS FROM THE SET</div>
+          <div className="font-poster text-sm tracking-[0.4em] text-ivory mb-4">WHISPERS FROM THE SET</div>
           <h2 className="font-display text-4xl md:text-5xl text-ivory mt-2">
             Whispers from the <span className="text-gradient-gold">Set</span>
           </h2>

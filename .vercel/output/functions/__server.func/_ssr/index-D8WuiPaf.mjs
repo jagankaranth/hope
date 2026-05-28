@@ -275,7 +275,7 @@ function Quotes() {
   const quotes = staticQuotes;
   return /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "whispers", className: "relative bg-curtain py-24 px-6 md:px-12 film-grain", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-6xl mx-auto", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-12", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-sm tracking-[0.4em] text-accent mb-4", children: "WHISPERS FROM THE SET" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-sm tracking-[0.4em] text-ivory mb-4", children: "WHISPERS FROM THE SET" }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "font-display text-4xl md:text-5xl text-ivory mt-2", children: [
         "Whispers from the ",
         /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-gradient-gold", children: "Set" })
