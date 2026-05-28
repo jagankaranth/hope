@@ -406,8 +406,7 @@ function Finale() {
       /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-ivory/90 text-lg md:text-xl leading-relaxed", children: "Even though you are moving on to your next big adventure, your story here will always be our favorite. As you start this beautiful new chapter, may Lord Shiva bless your path with endless peace and joy. We will miss you deeply but we know the magic is far from over." }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "pt-8 border-t border-gold/30", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "font-script italic text-2xl md:text-4xl text-ivory mt-4 flex items-center justify-center gap-3 flex-wrap", children: [
         "Lots of love from the ",
-        /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: rpsLogo, alt: "Rock Paper Scissors Logo", className: "h-10 md:h-14 w-auto inline-block opacity-90" }),
-        " family"
+        /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: rpsLogo, alt: "Rock Paper Scissors Logo", className: "h-10 md:h-14 w-auto inline-block opacity-90" })
       ] }) })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-14 flex items-center justify-center gap-6 text-gold/60 text-2xl", children: [
