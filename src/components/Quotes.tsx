@@ -34,7 +34,7 @@ const staticQuotes: Quote[] = [
     id: "q3",
     text: (
       <>
-        Dear Pavitra, from my very first day at RPS, you were there—guiding me through onboarding, answering endless questions, and keeping me on track. You made joining a new company feel easy and less overwhelming. To me, you will always be the one who helped me grow. Plus, life is unfair: who is going to restore our balance and inner peace now that our Operations Head and resident Yoga Instructor is leaving? 😄 Wishing you happiness and peace on your next adventure. Hopefully we'll meet in Goa soon, pretending to meditate by the seashore while actually laughing over our shared memories! 🌊🧘‍♀️ You will truly be missed. ❤️
+        From my very first day at RPS, you were there, guiding me through onboarding, answering endless questions, and keeping me on track. You made joining a new company feel easy and less overwhelming. To me, you will always be the one who helped me grow. Plus, life is unfair: who is going to restore our balance and inner peace now that our Operations Head and resident Yoga Instructor is leaving? Wishing you happiness and peace on your next adventure. Hopefully we'll meet in Goa soon, pretending to meditate by the seashore while actually laughing over our shared memories! You will truly be missed.
       </>
     ),
     by: "Jagan Karanth",
