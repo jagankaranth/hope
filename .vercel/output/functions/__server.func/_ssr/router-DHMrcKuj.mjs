@@ -19,12 +19,12 @@ const appCss = "/assets/styles-dD8kXHzb.css";
 function RainEffect() {
   const [drops, setDrops] = reactExports.useState([]);
   reactExports.useEffect(() => {
-    const generatedDrops = Array.from({ length: 45 }).map((_, i) => {
+    const generatedDrops = Array.from({ length: 75 }).map((_, i) => {
       const left = `${Math.random() * 100}%`;
-      const duration = `${1.2 + Math.random() * 0.8}s`;
-      const delay = `${Math.random() * 4}s`;
-      const height = `${60 + Math.random() * 60}px`;
-      const opacity = 0.15 + Math.random() * 0.25;
+      const duration = `${0.5 + Math.random() * 0.4}s`;
+      const delay = `${Math.random() * 3}s`;
+      const height = `${15 + Math.random() * 20}px`;
+      const opacity = 0.06 + Math.random() * 0.12;
       return {
         id: i,
         left,
