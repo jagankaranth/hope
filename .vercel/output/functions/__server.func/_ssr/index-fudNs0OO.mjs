@@ -64,10 +64,18 @@ function Hero() {
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative md:absolute md:-top-10 left-0 md:left-2 mb-8 md:mb-0 max-w-full md:max-w-xs animate-float-up z-20", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-[10px] md:text-xs tracking-[0.3em] text-gold/80", children: "STARRING" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-script italic text-2xl md:text-4xl text-gold-bright text-glow leading-none mt-1", children: "Pavitra Mani" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "font-poster text-[10px] md:text-xs tracking-[0.25em] text-ivory/70 mt-2", children: [
-          "AS THE HEAD OF PRODUCT,",
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "font-poster text-[10px] md:text-xs tracking-[0.25em] text-ivory/70 mt-2 leading-relaxed", children: [
+          "AS THE ",
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-bold text-gold-bright text-[11px] md:text-sm", children: "H" }),
+          "EAD ",
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-bold text-gold-bright text-[11px] md:text-sm", children: "O" }),
+          "F ",
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-bold text-gold-bright text-[11px] md:text-sm", children: "P" }),
+          "ROJECT,",
           /* @__PURE__ */ jsxRuntimeExports.jsx("br", { className: "hidden md:block" }),
-          " OPERATIONS & EXCELLENCE"
+          " OPERATIONS & ",
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-bold text-gold-bright text-[11px] md:text-sm", children: "E" }),
+          "XCELLENCE"
         ] })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-center mb-6 md:mb-16 animate-float-up", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "font-poster text-[10px] md:text-xs tracking-[0.5em] text-ivory/60 flex flex-col items-center justify-center gap-3", children: [
@@ -158,7 +166,7 @@ function StarringRole() {
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-6 text-ivory/90 leading-relaxed text-base md:text-lg", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
-          "As the Head of Product Operations and Excellence at Rock Paper Scissors Studio, Pavitra didn’t just manage workflows but directed our daily lives with the flair of a classic Shah Rukh Khan blockbuster. Whether she was clearing payments or preventing the entire studio from descending into complete chaos, she did it all with the unshakable balance of a seasoned yoga instructor. After all, she knew that ",
+          "As the Head of Project Operations and Excellence at Rock Paper Scissors Studio, Pavitra didn’t just manage workflows but directed our daily lives with the flair of a classic Shah Rukh Khan blockbuster. Whether she was clearing payments or preventing the entire studio from descending into complete chaos, she did it all with the unshakable balance of a seasoned yoga instructor. After all, she knew that ",
           /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: "bade bade studios mein aisi chhoti chhoti baatein hoti rehti hai" }),
           "."
         ] }),
@@ -303,9 +311,20 @@ function Quotes() {
     )) })
   ] }) });
 }
-const p1 = "/assets/placeholder-1-UCQ0_9jH.jpg";
-const p2 = "/assets/placeholder-2-B0OkaTpe.jpg";
-const p3 = "/assets/placeholder-3-NpWVDGvz.jpg";
+const r1 = "/assets/reel01-C-_STu9o.jpg";
+const r2 = "/assets/reel02-CkhduBAF.jpg";
+const r3 = "/assets/reel03-7q5oG_xT.jpg";
+const r4 = "/assets/reel04-D3xZ_k5c.jpg";
+const r5 = "/assets/reel05-BIgLYICs.jpg";
+const r6 = "/assets/reel06-D2uD9X3S.jpg";
+const r7 = "/assets/reel07-DnOhUh1P.jpg";
+const r8 = "/assets/reel08-DB8rONHF.jpg";
+const r9 = "/assets/reel09-DNlwEsOP.jpg";
+const r10 = "/assets/reel10-BmO7UhnN.jpg";
+const r11 = "/assets/reel11-CExIBzdq.jpg";
+const r12 = "/assets/reel12-Djmg817H.jpg";
+const r13 = "/assets/reel13-BwuqNqO-.jpg";
+const r14 = "/assets/reel14-BR7DGSGu.jpg";
 const Dialog = Root;
 const DialogPortal = Portal;
 const DialogOverlay = reactExports.forwardRef(({ className, ...props }, ref) => /* @__PURE__ */ jsxRuntimeExports.jsx(
@@ -360,7 +379,7 @@ const DialogDescription = reactExports.forwardRef(({ className, ...props }, ref)
   }
 ));
 DialogDescription.displayName = Description.displayName;
-const seed = [p1, p2, p3, p1, p2, p3, p1];
+const seed = [r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12, r13, r14];
 function PhotoStrip() {
   const photos = seed;
   const [selectedPhoto, setSelectedPhoto] = reactExports.useState(null);
@@ -377,7 +396,7 @@ function PhotoStrip() {
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative -mx-6 md:-mx-12 overflow-x-auto pb-6 film-grain", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-[#0a0608] py-2 shadow-poster", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx(Sprockets, { count: 20 }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "px-4 py-5", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex gap-4", children: photos.map((src, i) => /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "relative group shrink-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "py-5", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex gap-4 pl-6 pr-32 md:pl-12 md:pr-64", children: photos.map((src, i) => /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "relative group shrink-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
           "div",
           {
             onClick: () => setSelectedPhoto(src),

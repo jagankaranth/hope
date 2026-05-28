@@ -15,7 +15,7 @@ import "crypto";
 import "async_hooks";
 import "stream";
 import "../_libs/isbot.mjs";
-const appCss = "/assets/styles-DQPI8hpf.css";
+const appCss = "/assets/styles-BSzYRW20.css";
 function NotFoundComponent() {
   return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex min-h-screen items-center justify-center bg-background px-4", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-md text-center", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-7xl font-bold text-foreground", children: "404" }),
@@ -78,6 +78,30 @@ const Route$1 = createRootRouteWithContext()({
       {
         rel: "stylesheet",
         href: appCss
+      },
+      {
+        rel: "icon",
+        type: "image/png",
+        href: "/favicon-96x96.png?v=1",
+        sizes: "96x96"
+      },
+      {
+        rel: "icon",
+        type: "image/svg+xml",
+        href: "/favicon.svg?v=1"
+      },
+      {
+        rel: "shortcut icon",
+        href: "/favicon.ico?v=1"
+      },
+      {
+        rel: "apple-touch-icon",
+        sizes: "180x180",
+        href: "/apple-touch-icon.png?v=1"
+      },
+      {
+        rel: "manifest",
+        href: "/site.webmanifest?v=1"
       }
     ]
   }),
@@ -99,7 +123,7 @@ function RootComponent() {
   const { queryClient } = Route$1.useRouteContext();
   return /* @__PURE__ */ jsxRuntimeExports.jsx(QueryClientProvider, { client: queryClient, children: /* @__PURE__ */ jsxRuntimeExports.jsx(Outlet, {}) });
 }
-const $$splitComponentImporter = () => import("./index-D8WuiPaf.mjs");
+const $$splitComponentImporter = () => import("./index-fudNs0OO.mjs");
 const Route = createFileRoute("/")({
   head: () => ({
     meta: [{
