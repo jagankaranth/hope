@@ -1,17 +1,7 @@
 import { j as jsxRuntimeExports, r as reactExports } from "../_libs/react.mjs";
 import { c as clsx } from "../_libs/clsx.mjs";
 import { t as twMerge } from "../_libs/tailwind-merge.mjs";
-import { S as Slot } from "../_libs/radix-ui__react-slot.mjs";
-import { c as cva } from "../_libs/class-variance-authority.mjs";
-import { R as Root } from "../_libs/radix-ui__react-label.mjs";
-import { P as Plus, Q as Quote, X, C as Camera } from "../_libs/lucide-react.mjs";
-import "../_libs/radix-ui__react-compose-refs.mjs";
-import "../_libs/radix-ui__react-primitive.mjs";
-import "../_libs/react-dom.mjs";
-import "util";
-import "crypto";
-import "async_hooks";
-import "stream";
+import { Q as Quote } from "../_libs/lucide-react.mjs";
 const heroBg = "/assets/hero-bg-BC23P0zG.jpg";
 function Hero() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "relative min-h-screen w-full overflow-hidden film-grain bg-poster", children: [
@@ -155,18 +145,16 @@ function StarringRole() {
         /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-poster text-[10px] tracking-[0.3em] text-gold/60 mt-1", children: "— DDLJ, 1995 (the unofficial RPS anthem)" })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-ivory/85 leading-relaxed text-base md:text-lg", children: [
-        "Officially: Head of Product, Operations & Excellence. Unofficially: the",
-        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: " Seeta-aur-Geeta " }),
-        "of the studio — Project Manager by day, secret HR superhero by night, and possibly ",
-        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: "“Shalini from Finance”" }),
-        " moonlighting on the side. She avoided talking about design like a hero avoids the villain's lair, but quietly cleared payments, onboarded new hires, and held the whole picture together."
+        "Officially at Rock Paper Scissors Studio: Head of Product, Operations & Excellence. Unofficially: the ultimate",
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: " Om Shanti Om " }),
+        "director working behind the scenes. From clearing payments to keeping the RPS crew from completely falling apart, she handled everything with the grace of an experienced Yoga Instructor and the sheer willpower of a true devotee of Lord Shiva."
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-ivory/85 leading-relaxed text-base md:text-lg", children: [
-        "When the studio felt like the climax of a Rohit Shetty film — cars flying, decks crashing — she stayed in perfect headstand. Inhaled the chaos, exhaled",
+        "When the studio floor felt like the chaotic climax of a Rohit Shetty film, she remained our anchor in a perfect headstand. She'd inhale the madness, exhale pure Goan",
         /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: " susegad" }),
-        ". Full",
+        ", and channel full",
         /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: " “Main Hoon Na” " }),
-        "energy, with a water bottle in one hand and a yoga mat in the other."
+        "energy to save the day. Every crisis was met with a Shah Rukh Khan dialogue and a gentle reminder to just breathe."
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-2 gap-3 pt-4", children: traits.map((t) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "border-l-2 border-gold/60 pl-3", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-[10px] tracking-[0.3em] text-gold/70", children: t.label }),
@@ -224,146 +212,52 @@ const CardFooter = reactExports.forwardRef(
   ({ className, ...props }, ref) => /* @__PURE__ */ jsxRuntimeExports.jsx("div", { ref, className: cn("flex items-center p-6 pt-0", className), ...props })
 );
 CardFooter.displayName = "CardFooter";
-const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
-  {
-    variants: {
-      variant: {
-        default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
-        destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
-        outline: "border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground",
-        secondary: "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
-        ghost: "hover:bg-accent hover:text-accent-foreground",
-        link: "text-primary underline-offset-4 hover:underline"
-      },
-      size: {
-        default: "h-9 px-4 py-2",
-        sm: "h-8 rounded-md px-3 text-xs",
-        lg: "h-10 rounded-md px-8",
-        icon: "h-9 w-9"
-      }
-    },
-    defaultVariants: {
-      variant: "default",
-      size: "default"
-    }
-  }
-);
-const Button = reactExports.forwardRef(
-  ({ className, variant, size, asChild = false, ...props }, ref) => {
-    const Comp = asChild ? Slot : "button";
-    return /* @__PURE__ */ jsxRuntimeExports.jsx(Comp, { className: cn(buttonVariants({ variant, size, className })), ref, ...props });
-  }
-);
-Button.displayName = "Button";
-const Input = reactExports.forwardRef(
-  ({ className, type, ...props }, ref) => {
-    return /* @__PURE__ */ jsxRuntimeExports.jsx(
-      "input",
-      {
-        type,
-        className: cn(
-          "flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm",
-          className
-        ),
-        ref,
-        ...props
-      }
-    );
-  }
-);
-Input.displayName = "Input";
-const Textarea = reactExports.forwardRef(
-  ({ className, ...props }, ref) => {
-    return /* @__PURE__ */ jsxRuntimeExports.jsx(
-      "textarea",
-      {
-        className: cn(
-          "flex min-h-[60px] w-full rounded-md border border-input bg-transparent px-3 py-2 text-base shadow-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm",
-          className
-        ),
-        ref,
-        ...props
-      }
-    );
-  }
-);
-Textarea.displayName = "Textarea";
-const labelVariants = cva(
-  "text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-);
-const Label = reactExports.forwardRef(({ className, ...props }, ref) => /* @__PURE__ */ jsxRuntimeExports.jsx(Root, { ref, className: cn(labelVariants(), className), ...props }));
-Label.displayName = Root.displayName;
-const STORAGE_KEY$1 = "pavitra-quotes-v2";
-const seed$1 = [
+const staticQuotes = [
   {
     id: "q1",
-    text: "From my very first day at RPS, you were always there — my buddy, my onboarding guide, my decoder of confusion. So much of my early journey here has your support folded into it. You made joining a new organisation feel less overwhelming and more like a film with a really kind co-star.",
-    by: "A teammate you onboarded",
-    dialogue: "Tum jab paida hue the, tab tum roye the, aur duniya hansi thi…",
-    film: "ANAND, 1971"
+    text: "Whenever RPS felt like a chaotic movie set, you brought the perfect Zen energy. Between reminding us to breathe and dropping SRK dialogues, you were the truest 'Om Shanti Om' of the studio.",
+    by: "A grateful Team Lead",
+    dialogue: "Picture abhi baaki hai, mere dost.",
+    film: "OM SHANTI OM, 2007"
   },
   {
     id: "q2",
-    text: "When I was unwell, you went full Munna Bhai M.B.B.S. on me. At the offsite you basically tracked my every move with a water bottle, giving total Amrita Rao 'Jal lijiye, aap thak gaye honge' energy until I'd taken my meds.",
-    by: "The Most Hydrated Designer",
-    dialogue: "Tension lene ka nahi, sirf dene ka.",
-    film: "MUNNA BHAI M.B.B.S., 2003"
+    text: "Pavitra managed operations like she manages her Yoga poses—with perfect balance and an unwavering focus. And whenever we needed strength, her 'Har Har Mahadev' spirit was contagious.",
+    by: "The Ops Squad",
+    dialogue: "Sachi mohabbat zindagi mein sirf ek baar hoti hai...",
+    film: "KABHI KHUSHI KABHIE GHAM, 2001"
   },
   {
     id: "q3",
-    text: "Whenever the junior resources were acting like the cast of Golmaal and driving me to my absolute breaking point, you were the one who talked me off the ledge before I turned into angry Amitabh. 'Control, Uday, control' — but make it therapy.",
-    by: "A grateful Team Lead",
-    dialogue: "Rishtey mein toh hum tumhare baap lagte hain…",
-    film: "SHAHENSHAH, 1988"
+    text: "You always said the universe conspires to make things happen. Thank you for conspiring to make our time at RPS so incredibly smooth. Enjoy those beautiful Goan sunsets!",
+    by: "The Design Team",
+    dialogue: "Itni shiddat se maine tumhe paane ki koshish ki hai, ki har zarre ne mujhe tumse milane ki saazish ki hai.",
+    film: "OM SHANTI OM, 2007"
   },
   {
     id: "q4",
-    text: "Pavitra didn't manage operations — she choreographed them. Every quarter felt like a Yash Chopra dance number that somehow landed on the one, in chiffon, on a hillside.",
-    by: "Aarav, Engineering",
-    dialogue: "Mere paas Pavitra hai.",
-    film: "DEEWAR (REMIX), 1975"
+    text: "Life is very unfair because the person leaving us is not just our Head of Operations but also our spiritual anchor. May Lord Shiva bless your next big blockbuster journey.",
+    by: "Everyone, slightly off-balance",
+    dialogue: "Kuch kuch hota hai... tum nahi samjhogi.",
+    film: "KUCH KUCH HOTA HAI, 1998"
   },
   {
     id: "q5",
-    text: "Life is very unfair because the person leaving us is not just our Head of Operations but also our Yoga Instructor. Who is going to restore our balance and inner peace now? 😄",
-    by: "Everyone, slightly off-balance",
-    dialogue: "Kuch kuch hota hai… tum nahi samjhogi.",
-    film: "K3H, 1998"
+    text: "From clearing payments to restoring inner peace, no one else could channel 'Main Hoon Na' energy quite like you. Keep spreading the magic, Pavitra.",
+    by: "Shalini from Finance",
+    dialogue: "Main Hoon Na.",
+    film: "MAIN HOON NA, 2004"
   },
   {
     id: "q6",
-    text: "When everything was on fire, she'd quote Om Shanti Om and somehow we'd all calm down. Magic. Or maybe just Pavitra.",
-    by: "The Ops Squad",
-    dialogue: "Agar kisi cheez ko dil se chaaho… toh poori kaynaat use tumse milane mein lag jaati hai.",
-    film: "OM SHANTI OM, 2007"
+    text: "Bade bade studios mein aisi operations head baar baar nahi milti. We will miss your Yoga tips, your Goan vibes, and most of all, your heart.",
+    by: "The Entire RPS Family",
+    dialogue: "Bade bade deshon mein aisi chhoti chhoti baatein hoti rehti hai...",
+    film: "DDLJ, 1995"
   }
 ];
 function Quotes() {
-  const [quotes, setQuotes] = reactExports.useState(seed$1);
-  const [open, setOpen] = reactExports.useState(false);
-  const [form, setForm] = reactExports.useState({ text: "", by: "" });
-  reactExports.useEffect(() => {
-    try {
-      const raw = localStorage.getItem(STORAGE_KEY$1);
-      if (raw) setQuotes(JSON.parse(raw));
-    } catch {
-    }
-  }, []);
-  const save = (next) => {
-    setQuotes(next);
-    try {
-      localStorage.setItem(STORAGE_KEY$1, JSON.stringify(next));
-    } catch {
-    }
-  };
-  const submit = () => {
-    if (!form.text.trim() || !form.by.trim()) return;
-    save([{ id: crypto.randomUUID(), ...form }, ...quotes]);
-    setForm({ text: "", by: "" });
-    setOpen(false);
-  };
-  const remove = (id) => save(quotes.filter((q) => q.id !== id));
+  const quotes = staticQuotes;
   return /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "whispers", className: "relative bg-curtain py-24 px-6 md:px-12 film-grain", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-6xl mx-auto", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-12", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-sm tracking-[0.4em] text-gold-bright", children: "REEL · 02" }),
@@ -373,56 +267,6 @@ function Quotes() {
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-script italic text-ivory/80 mt-3 max-w-2xl mx-auto", children: "What the cast & crew have to say between takes — every story comes with its own little Bollywood dialogue, the way Pavitra would've wanted it." })
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex justify-center mb-10", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
-      Button,
-      {
-        onClick: () => setOpen((o) => !o),
-        variant: "outline",
-        className: "font-poster tracking-[0.2em] border-gold text-gold hover:bg-gold hover:text-background",
-        children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx(Plus, { className: "mr-2 h-4 w-4" }),
-          " ADD YOUR LINE"
-        ]
-      }
-    ) }),
-    open && /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "bg-card border-gold/40 p-6 mb-10 max-w-2xl mx-auto animate-float-up", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-4", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-2", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Label, { className: "font-poster tracking-widest text-xs text-gold", children: "YOUR DIALOGUE" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(
-          Textarea,
-          {
-            value: form.text,
-            onChange: (e) => setForm({ ...form, text: e.target.value }),
-            rows: 4,
-            placeholder: "A line for Pavitra...",
-            className: "bg-background border-gold/30"
-          }
-        )
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-2", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Label, { className: "font-poster tracking-widest text-xs text-gold", children: "SIGNED BY" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(
-          Input,
-          {
-            value: form.by,
-            onChange: (e) => setForm({ ...form, by: e.target.value }),
-            placeholder: "Your name, your team",
-            className: "bg-background border-gold/30"
-          }
-        )
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-end gap-2", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Button, { variant: "ghost", onClick: () => setOpen(false), className: "text-ivory/70", children: "Cancel" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(
-          Button,
-          {
-            onClick: submit,
-            className: "font-poster tracking-widest bg-accent text-accent-foreground hover:bg-accent/90",
-            children: "ROLL CAMERA"
-          }
-        )
-      ] })
-    ] }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid md:grid-cols-2 gap-6", children: quotes.map((q, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
       Card,
       {
@@ -449,15 +293,6 @@ function Quotes() {
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "h-px w-8 bg-gold" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-poster text-xs tracking-[0.3em] text-gold", children: q.by.toUpperCase() })
           ] }),
-          !seed$1.find((s) => s.id === q.id) && /* @__PURE__ */ jsxRuntimeExports.jsx(
-            "button",
-            {
-              onClick: () => remove(q.id),
-              className: "absolute top-3 right-3 p-1 text-ivory/40 hover:text-accent opacity-0 group-hover:opacity-100 transition",
-              "aria-label": "Remove",
-              children: /* @__PURE__ */ jsxRuntimeExports.jsx(X, { className: "h-4 w-4" })
-            }
-          ),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute bottom-3 right-4 font-poster text-[10px] tracking-[0.3em] text-gold/40", children: [
             "TAKE ",
             String(i + 1).padStart(2, "0")
@@ -470,108 +305,37 @@ function Quotes() {
 }
 const p2 = "/assets/placeholder-2-B0OkaTpe.jpg";
 const p3 = "/assets/placeholder-3-NpWVDGvz.jpg";
-const STORAGE_KEY = "pavitra-strip-v2";
 const seed = [p1, p2, p3, p1, p2, p3, p1];
 function PhotoStrip() {
-  const [photos, setPhotos] = reactExports.useState(seed);
-  reactExports.useEffect(() => {
-    try {
-      const raw = localStorage.getItem(STORAGE_KEY);
-      if (raw) setPhotos(JSON.parse(raw));
-    } catch {
-    }
-  }, []);
-  const save = (next) => {
-    setPhotos(next);
-    try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
-    } catch {
-    }
-  };
-  const upload = (file) => {
-    const r = new FileReader();
-    r.onload = () => save([r.result, ...photos]);
-    r.readAsDataURL(file);
-  };
+  const photos = seed;
   const Sprockets = ({ count = 14 }) => /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex justify-between items-center px-2 py-1 bg-background", children: Array.from({ length: count }).map((_, j) => /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "block h-3 w-4 rounded-[2px] bg-foreground/10" }, j)) });
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { id: "film-reel", className: "relative py-20 px-6 md:px-12", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-10", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-sm tracking-[0.4em] text-accent", children: "REEL · 03" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "font-display text-4xl md:text-5xl text-ivory mt-2", children: [
-          "The ",
-          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-gradient-gold", children: "Film Reel" })
-        ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-script italic text-gold-bright/80 mt-2 max-w-xl", children: "70mm of memories. Drop a polaroid, paste a candid, add a scene from the cutting-room floor." })
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "max-w-7xl mx-auto flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-10", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-sm tracking-[0.4em] text-accent", children: "REEL · 03" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "font-display text-4xl md:text-5xl text-ivory mt-2", children: [
+        "The ",
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-gradient-gold", children: "Film Reel" })
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("label", { children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "input",
-          {
-            type: "file",
-            accept: "image/*",
-            className: "hidden",
-            onChange: (e) => e.target.files?.[0] && upload(e.target.files[0])
-          }
-        ),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(
-          Button,
-          {
-            asChild: true,
-            variant: "outline",
-            className: "font-poster tracking-[0.2em] border-gold text-gold hover:bg-gold hover:text-background cursor-pointer",
-            children: /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx(Camera, { className: "mr-2 h-4 w-4" }),
-              " ADD A FRAME"
-            ] })
-          }
-        )
-      ] })
-    ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-script italic text-gold-bright/80 mt-2 max-w-xl", children: "70mm of memories. Drop a polaroid, paste a candid, add a scene from the cutting-room floor." })
+    ] }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative -mx-6 md:-mx-12 overflow-x-auto pb-6 film-grain", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-[#0a0608] py-2 shadow-poster", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx(Sprockets, { count: 20 }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "px-4 py-5", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex gap-4", children: [
-          photos.map((src, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative group shrink-0", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "img",
-              {
-                src,
-                alt: `Frame ${i + 1}`,
-                loading: "lazy",
-                className: "h-72 md:h-96 w-56 md:w-72 object-cover border-[3px] border-foreground/20"
-              }
-            ),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute top-2 left-2 font-poster text-[10px] tracking-[0.3em] text-gold-bright bg-background/70 px-2 py-0.5", children: [
-              "FRAME ",
-              String(i + 1).padStart(3, "0")
-            ] }),
-            !seed.includes(src) && /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "button",
-              {
-                onClick: () => save(photos.filter((_, k) => k !== i)),
-                className: "absolute top-2 right-2 p-1 bg-background/80 rounded-full text-ivory/70 hover:text-accent opacity-0 group-hover:opacity-100 transition",
-                "aria-label": "Remove photo",
-                children: /* @__PURE__ */ jsxRuntimeExports.jsx(X, { className: "h-3 w-3" })
-              }
-            )
-          ] }, i)),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("label", { className: "shrink-0 cursor-pointer", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "input",
-              {
-                type: "file",
-                accept: "image/*",
-                className: "hidden",
-                onChange: (e) => e.target.files?.[0] && upload(e.target.files[0])
-              }
-            ),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "h-72 md:h-96 w-56 md:w-72 border-2 border-dashed border-gold/40 flex flex-col items-center justify-center gap-2 hover:border-gold hover:bg-gold/5 transition", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx(Plus, { className: "h-10 w-10 text-gold/70" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-poster text-[10px] tracking-[0.3em] text-gold/70", children: "ADD FRAME" })
-            ] })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "px-4 py-5", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex gap-4", children: photos.map((src, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative group shrink-0", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "img",
+            {
+              src,
+              alt: `Frame ${i + 1}`,
+              loading: "lazy",
+              className: "h-72 md:h-96 w-56 md:w-72 object-cover border-[3px] border-foreground/20"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute top-2 left-2 font-poster text-[10px] tracking-[0.3em] text-gold-bright bg-background/70 px-2 py-0.5", children: [
+            "FRAME ",
+            String(i + 1).padStart(3, "0")
           ] })
-        ] }) }),
+        ] }, i)) }) }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(Sprockets, { count: 20 })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-center mt-4 font-poster text-[10px] tracking-[0.4em] text-gold/60", children: "◀  SCROLL THE REEL  ▶" })
@@ -587,9 +351,9 @@ function Finale() {
       /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-ivory text-4xl md:text-5xl", children: "Nahi yaar, sirf interval." })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "mt-10 text-lg md:text-xl text-ivory/90 max-w-2xl mx-auto leading-relaxed", children: [
-      "You don't even need to catch a train like Kajol in",
+      "Leaving Rock Paper Scissors Studio doesn't mean you have to run to catch a train like Kajol in",
       /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: " DDLJ " }),
-      "— you already live in Goa. So go strut down the beach in slow motion while the rest of us weep into our chai in perfect Yash Chopra lighting."
+      "— you're already living the dream in Goa! Go ahead and strut down the beach in slow motion while the rest of us weep into our chai, waiting for our own Yash Chopra miracle."
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-10 border-y border-gold/30 py-6", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "font-script italic text-2xl md:text-3xl text-gold-bright leading-snug", children: [
@@ -601,11 +365,11 @@ function Finale() {
       /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-poster text-[10px] tracking-[0.4em] text-gold/60 mt-3", children: "— KABHI KHUSHI KABHIE GHAM, 2001" })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "mt-10 text-base md:text-lg text-ivory/85 max-w-2xl mx-auto leading-relaxed", children: [
-      "May your post-RPS days be filled with Goan sunsets, endless",
+      "May your post-RPS days be filled with magical Goan sunsets, endless",
       /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: " susegad" }),
-      ", peaceful beach yoga, a little Shiva strength, a lot of Shah Rukh swagger — and exactly ",
+      ", peaceful morning yoga sessions, the unwavering strength of Lord Shiva, a whole lot of Shah Rukh swagger — and exactly ",
       /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: "zero" }),
-      " junior resources to manage."
+      " operations crises to manage."
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-8 font-script italic text-xl md:text-2xl text-gold-bright", children: "“Picture abhi baaki hai, mere dost.”" }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-poster text-[10px] tracking-[0.4em] text-gold/60 mt-1", children: "— OM SHANTI OM, 2007" }),

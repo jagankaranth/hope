@@ -53,20 +53,16 @@ export function StarringRole() {
           </div>
 
           <p className="text-ivory/85 leading-relaxed text-base md:text-lg">
-            Officially: Head of Product, Operations &amp; Excellence. Unofficially: the
-            <span className="font-script italic text-gold-bright"> Seeta-aur-Geeta </span>
-            of the studio — Project Manager by day, secret HR superhero by night, and
-            possibly <span className="font-script italic text-gold-bright">“Shalini from Finance”</span> moonlighting on the side.
-            She avoided talking about design like a hero avoids the villain's lair, but
-            quietly cleared payments, onboarded new hires, and held the whole picture together.
+            Officially at Rock Paper Scissors Studio: Head of Product, Operations &amp; Excellence. Unofficially: the ultimate 
+            <span className="font-script italic text-gold-bright"> Om Shanti Om </span>
+            director working behind the scenes. From clearing payments to keeping the RPS crew from completely falling apart, she handled everything with the grace of an experienced Yoga Instructor and the sheer willpower of a true devotee of Lord Shiva.
           </p>
 
           <p className="text-ivory/85 leading-relaxed text-base md:text-lg">
-            When the studio felt like the climax of a Rohit Shetty film — cars flying,
-            decks crashing — she stayed in perfect headstand. Inhaled the chaos, exhaled
-            <span className="font-script italic text-gold-bright"> susegad</span>. Full
+            When the studio floor felt like the chaotic climax of a Rohit Shetty film, she remained our anchor in a perfect headstand. She'd inhale the madness, exhale pure Goan 
+            <span className="font-script italic text-gold-bright"> susegad</span>, and channel full 
             <span className="font-script italic text-gold-bright"> “Main Hoon Na” </span>
-            energy, with a water bottle in one hand and a yoga mat in the other.
+            energy to save the day. Every crisis was met with a Shah Rukh Khan dialogue and a gentle reminder to just breathe.
           </p>
 
           <div className="grid grid-cols-2 gap-3 pt-4">

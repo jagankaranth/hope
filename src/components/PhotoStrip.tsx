@@ -1,6 +1,4 @@
-import { useEffect, useState } from "react";
-import { Camera, Plus, X } from "lucide-react";
-import { Button } from "@/components/ui/button";
+
 import p1 from "@/assets/placeholder-1.jpg";
 import p2 from "@/assets/placeholder-2.jpg";
 import p3 from "@/assets/placeholder-3.jpg";
@@ -9,27 +7,7 @@ const STORAGE_KEY = "pavitra-strip-v2";
 const seed = [p1, p2, p3, p1, p2, p3, p1];
 
 export function PhotoStrip() {
-  const [photos, setPhotos] = useState<string[]>(seed);
-
-  useEffect(() => {
-    try {
-      const raw = localStorage.getItem(STORAGE_KEY);
-      if (raw) setPhotos(JSON.parse(raw));
-    } catch {}
-  }, []);
-
-  const save = (next: string[]) => {
-    setPhotos(next);
-    try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
-    } catch {}
-  };
-
-  const upload = (file: File) => {
-    const r = new FileReader();
-    r.onload = () => save([r.result as string, ...photos]);
-    r.readAsDataURL(file);
-  };
+  const photos = seed;
 
   // Sprocket holes generator
   const Sprockets = ({ count = 14 }: { count?: number }) => (
@@ -53,25 +31,7 @@ export function PhotoStrip() {
             cutting-room floor.
           </p>
         </div>
-        <label>
-          <input
-            type="file"
-            accept="image/*"
-            className="hidden"
-            onChange={(e) => e.target.files?.[0] && upload(e.target.files[0])}
-          />
-          <Button
-            asChild
-            variant="outline"
-            className="font-poster tracking-[0.2em] border-gold text-gold hover:bg-gold hover:text-background cursor-pointer"
-          >
-            <span>
-              <Camera className="mr-2 h-4 w-4" /> ADD A FRAME
-            </span>
-          </Button>
-        </label>
       </div>
-
       {/* Giant film reel — full bleed */}
       <div className="relative -mx-6 md:-mx-12 overflow-x-auto pb-6 film-grain">
         <div className="bg-[#0a0608] py-2 shadow-poster">
@@ -89,31 +49,10 @@ export function PhotoStrip() {
                   <div className="absolute top-2 left-2 font-poster text-[10px] tracking-[0.3em] text-gold-bright bg-background/70 px-2 py-0.5">
                     FRAME {String(i + 1).padStart(3, "0")}
                   </div>
-                  {!seed.includes(src) && (
-                    <button
-                      onClick={() => save(photos.filter((_, k) => k !== i))}
-                      className="absolute top-2 right-2 p-1 bg-background/80 rounded-full text-ivory/70 hover:text-accent opacity-0 group-hover:opacity-100 transition"
-                      aria-label="Remove photo"
-                    >
-                      <X className="h-3 w-3" />
-                    </button>
-                  )}
+
                 </div>
               ))}
-              <label className="shrink-0 cursor-pointer">
-                <input
-                  type="file"
-                  accept="image/*"
-                  className="hidden"
-                  onChange={(e) => e.target.files?.[0] && upload(e.target.files[0])}
-                />
-                <div className="h-72 md:h-96 w-56 md:w-72 border-2 border-dashed border-gold/40 flex flex-col items-center justify-center gap-2 hover:border-gold hover:bg-gold/5 transition">
-                  <Plus className="h-10 w-10 text-gold/70" />
-                  <span className="font-poster text-[10px] tracking-[0.3em] text-gold/70">
-                    ADD FRAME
-                  </span>
-                </div>
-              </label>
+
             </div>
           </div>
           <Sprockets count={20} />

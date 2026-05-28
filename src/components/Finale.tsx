@@ -14,10 +14,10 @@ export function Finale() {
         </h2>
 
         <p className="mt-10 text-lg md:text-xl text-ivory/90 max-w-2xl mx-auto leading-relaxed">
-          You don't even need to catch a train like Kajol in
+          Leaving Rock Paper Scissors Studio doesn't mean you have to run to catch a train like Kajol in
           <span className="font-script italic text-gold-bright"> DDLJ </span>—
-          you already live in Goa. So go strut down the beach in slow motion while
-          the rest of us weep into our chai in perfect Yash Chopra lighting.
+          you're already living the dream in Goa! Go ahead and strut down the beach in slow motion while
+          the rest of us weep into our chai, waiting for our own Yash Chopra miracle.
         </p>
 
         <div className="mt-10 border-y border-gold/30 py-6">
@@ -32,11 +32,10 @@ export function Finale() {
         </div>
 
         <p className="mt-10 text-base md:text-lg text-ivory/85 max-w-2xl mx-auto leading-relaxed">
-          May your post-RPS days be filled with Goan sunsets, endless
+          May your post-RPS days be filled with magical Goan sunsets, endless
           <span className="font-script italic text-gold-bright"> susegad</span>,
-          peaceful beach yoga, a little Shiva strength, a lot of Shah Rukh swagger —
-          and exactly <span className="font-script italic text-gold-bright">zero</span> junior
-          resources to manage.
+          peaceful morning yoga sessions, the unwavering strength of Lord Shiva, a whole lot of Shah Rukh swagger —
+          and exactly <span className="font-script italic text-gold-bright">zero</span> operations crises to manage.
         </p>
 
         <p className="mt-8 font-script italic text-xl md:text-2xl text-gold-bright">
