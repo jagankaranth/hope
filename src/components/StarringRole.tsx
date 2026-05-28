@@ -1,4 +1,4 @@
-import placeholder from "@/assets/placeholder-1.jpg";
+import placeholder from "@/assets/images/pavitra-portrait.jpg";
 
 const traits = [
   { label: "Genre", value: "Filmy Yogini" },

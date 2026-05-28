@@ -91,7 +91,7 @@ function Hero() {
     ] }) })
   ] });
 }
-const p1 = "/assets/placeholder-1-UCQ0_9jH.jpg";
+const placeholder = "/assets/pavitra-portrait-C1SdBPPC.jpg";
 const traits = [
   { label: "Genre", value: "Filmy Yogini" },
   { label: "Soundtrack", value: "Anything Shah Rukh" },
@@ -107,7 +107,7 @@ function StarringRole() {
         /* @__PURE__ */ jsxRuntimeExports.jsx(
           "img",
           {
-            src: p1,
+            src: placeholder,
             alt: "Pavitra as the leading lady",
             loading: "lazy",
             width: 800,
@@ -274,6 +274,7 @@ function Quotes() {
     )) })
   ] }) });
 }
+const p1 = "/assets/placeholder-1-UCQ0_9jH.jpg";
 const p2 = "/assets/placeholder-2-B0OkaTpe.jpg";
 const p3 = "/assets/placeholder-3-NpWVDGvz.jpg";
 const seed = [p1, p2, p3, p1, p2, p3, p1];
