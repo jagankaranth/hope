@@ -42,9 +42,9 @@ export function Hero() {
             <div className="font-script italic text-2xl md:text-4xl text-gold-bright text-glow leading-none mt-1">
               Pavitra Mani
             </div>
-            <div className="font-poster text-[10px] md:text-xs tracking-[0.25em] text-ivory/70 mt-2">
-              AS THE HEAD OF PRODUCT,
-              <br className="hidden md:block" /> OPERATIONS &amp; EXCELLENCE
+            <div className="font-poster text-[10px] md:text-xs tracking-[0.25em] text-ivory/70 mt-2 leading-relaxed">
+              AS THE <span className="font-bold text-gold-bright text-[11px] md:text-sm">H</span>EAD <span className="font-bold text-gold-bright text-[11px] md:text-sm">O</span>F <span className="font-bold text-gold-bright text-[11px] md:text-sm">P</span>ROJECT,
+              <br className="hidden md:block" /> OPERATIONS &amp; <span className="font-bold text-gold-bright text-[11px] md:text-sm">E</span>XCELLENCE
             </div>
           </div>
 
