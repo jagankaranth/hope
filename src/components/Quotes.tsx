@@ -75,12 +75,12 @@ export function Quotes() {
     <section id="whispers" className="relative bg-curtain py-24 px-6 md:px-12 film-grain">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <div className="font-poster text-sm tracking-[0.4em] text-gold-bright">REEL · 02</div>
+          <div className="font-poster text-sm tracking-[0.4em] text-accent mb-4">WHISPERS FROM THE SET</div>
           <h2 className="font-display text-4xl md:text-5xl text-ivory mt-2">
             Whispers from the <span className="text-gradient-gold">Set</span>
           </h2>
           <p className="font-script italic text-ivory/80 mt-3 max-w-2xl mx-auto">
-            What the cast &amp; crew have to say between takes — every story comes with its
+            What the cast &amp; crew have to say between takes. Every story comes with its
             own little Bollywood dialogue, the way Pavitra would've wanted it.
           </p>
         </div>

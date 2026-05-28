@@ -122,7 +122,7 @@ function StarringRole() {
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute -bottom-4 -left-4 bg-background border border-gold/50 px-3 py-1 font-poster text-[10px] tracking-[0.3em] text-gold -rotate-3", children: "HOUSEFULL · ALL SHOWS" })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "md:col-span-3 space-y-6", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-sm tracking-[0.4em] text-accent", children: "REEL · 01 · THE LEADING LADY" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-sm tracking-[0.4em] text-accent", children: "THE LEADING LADY" }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "font-display text-4xl md:text-6xl text-ivory leading-tight", children: [
         "Pavitra ",
         /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-gradient-gold", children: "Mani" })
@@ -246,12 +246,12 @@ function Quotes() {
   const quotes = staticQuotes;
   return /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "whispers", className: "relative bg-curtain py-24 px-6 md:px-12 film-grain", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-6xl mx-auto", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-12", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-sm tracking-[0.4em] text-gold-bright", children: "REEL · 02" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-sm tracking-[0.4em] text-accent mb-4", children: "WHISPERS FROM THE SET" }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "font-display text-4xl md:text-5xl text-ivory mt-2", children: [
         "Whispers from the ",
         /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-gradient-gold", children: "Set" })
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-script italic text-ivory/80 mt-3 max-w-2xl mx-auto", children: "What the cast & crew have to say between takes — every story comes with its own little Bollywood dialogue, the way Pavitra would've wanted it." })
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-script italic text-ivory/80 mt-3 max-w-2xl mx-auto", children: "What the cast & crew have to say between takes. Every story comes with its own little Bollywood dialogue, the way Pavitra would've wanted it." })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid md:grid-cols-2 gap-6", children: quotes.map((q, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
       Card,
@@ -283,7 +283,7 @@ function PhotoStrip() {
   const Sprockets = ({ count = 14 }) => /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex justify-between items-center px-2 py-1 bg-background", children: Array.from({ length: count }).map((_, j) => /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "block h-3 w-4 rounded-[2px] bg-foreground/10" }, j)) });
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { id: "film-reel", className: "relative py-20 px-6 md:px-12", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "max-w-7xl mx-auto flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-10", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-sm tracking-[0.4em] text-accent", children: "REEL · 03" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-sm tracking-[0.4em] text-accent", children: "THE FILM REEL" }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "font-display text-4xl md:text-5xl text-ivory mt-2", children: [
         "The ",
         /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-gradient-gold", children: "Film Reel" })

@@ -22,7 +22,7 @@ export function PhotoStrip() {
     <section id="film-reel" className="relative py-20 px-6 md:px-12">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-10">
         <div>
-          <div className="font-poster text-sm tracking-[0.4em] text-accent">REEL · 03</div>
+          <div className="font-poster text-sm tracking-[0.4em] text-accent">THE FILM REEL</div>
           <h2 className="font-display text-4xl md:text-5xl text-ivory mt-2">
             The <span className="text-gradient-gold">Film Reel</span>
           </h2>

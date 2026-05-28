@@ -37,7 +37,7 @@ export function StarringRole() {
         </div>
 
         <div className="md:col-span-3 space-y-6">
-          <div className="font-poster text-sm tracking-[0.4em] text-accent">REEL · 01 · THE LEADING LADY</div>
+          <div className="font-poster text-sm tracking-[0.4em] text-accent">THE LEADING LADY</div>
           <h2 className="font-display text-4xl md:text-6xl text-ivory leading-tight">
             Pavitra <span className="text-gradient-gold">Mani</span>
           </h2>
