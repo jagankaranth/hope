@@ -15,7 +15,7 @@ import "crypto";
 import "async_hooks";
 import "stream";
 import "../_libs/isbot.mjs";
-const appCss = "/assets/styles-DMffqER2.css";
+const appCss = "/assets/styles-Y5XocvB1.css";
 function RainEffect() {
   const [drops, setDrops] = reactExports.useState([]);
   reactExports.useEffect(() => {
@@ -162,7 +162,7 @@ function RootComponent() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(Outlet, {})
   ] });
 }
-const $$splitComponentImporter = () => import("./index-DaqoLc7y.mjs");
+const $$splitComponentImporter = () => import("./index-2XKO66WW.mjs");
 const Route = createFileRoute("/")({
   head: () => ({
     meta: [{
