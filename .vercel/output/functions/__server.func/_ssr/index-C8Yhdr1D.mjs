@@ -232,7 +232,7 @@ const staticQuotes = [
   {
     id: "q2",
     text: /* @__PURE__ */ jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, { children: "Pavitra has been our Jack (of all trades) who not just started Project management but also started many new dimensions of RPS—from being reporting managers to their personal counsellor. Being their people manager to their human resource. Wore the hat of social media person to operations head. You name it and she has been part of it. Rather she has been the ROCK of Rock Paper Scissors and managed and executed many such unexpressed and unexpected roles in the company. She has been the only person whom I could rely and depend on and sometimes taken undue advantage too. It is so good and proud to see her take up the role of entrepreneur and starting her own journey which she always manifested for. So so proud and wish her the best. Hope u get many repeated customers and orders. Cheers to life." }),
-    by: "Chandini (Our Boss)"
+    by: "Chandini Maam"
   },
   {
     id: "q3",
