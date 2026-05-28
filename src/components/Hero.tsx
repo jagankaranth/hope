@@ -35,42 +35,42 @@ export function Hero() {
       {/* Big HOPE poster composition */}
       <div className="relative z-10 flex min-h-[78vh] items-center justify-center px-6 md:px-12">
         <div className="relative w-full max-w-6xl">
-          {/* Tiny "presents" line above */}
-          <div className="text-center mb-12 md:mb-16 animate-float-up">
-            <div className="font-poster text-[10px] md:text-xs tracking-[0.5em] text-ivory/60">
-              ROCK · PAPER · SCISSORS &nbsp;PRESENTS
-            </div>
-          </div>
-
           {/* Top-left credit block */}
-          <div className="absolute -top-6 md:-top-10 left-0 md:left-2 max-w-[55%] md:max-w-xs animate-float-up z-20">
+          <div className="relative md:absolute md:-top-10 left-0 md:left-2 mb-8 md:mb-0 max-w-full md:max-w-xs animate-float-up z-20">
             <div className="font-poster text-[10px] md:text-xs tracking-[0.3em] text-gold/80">STARRING</div>
             <div className="font-script italic text-2xl md:text-4xl text-gold-bright text-glow leading-none mt-1">
               Pavitra Mani
             </div>
             <div className="font-poster text-[10px] md:text-xs tracking-[0.25em] text-ivory/70 mt-2">
               AS THE HEAD OF PRODUCT,
-              <br />OPERATIONS &amp; EXCELLENCE
+              <br className="hidden md:block" /> OPERATIONS &amp; EXCELLENCE
+            </div>
+          </div>
+
+          {/* Tiny "presents" line above */}
+          <div className="text-center mb-6 md:mb-16 animate-float-up">
+            <div className="font-poster text-[10px] md:text-xs tracking-[0.5em] text-ivory/60">
+              ROCK · PAPER · SCISSORS &nbsp;PRESENTS
             </div>
           </div>
 
           {/* The giant HOPE */}
           <h1
             className="font-display font-black text-center leading-[0.82] text-gradient-gold animate-flicker select-none tracking-tight"
-            style={{ fontSize: "clamp(7rem, 26vw, 21rem)" }}
+            style={{ fontSize: "clamp(6.5rem, 26vw, 21rem)" }}
           >
             HOPE
           </h1>
 
           {/* Bottom-right tagline */}
           <div
-            className="absolute -bottom-20 md:-bottom-28 right-0 md:right-2 max-w-[60%] md:max-w-md text-right animate-float-up z-20"
+            className="relative md:absolute md:-bottom-28 right-0 md:right-2 mt-6 md:mt-0 max-w-full md:max-w-md text-right animate-float-up z-20"
             style={{ animationDelay: "0.3s" }}
           >
             <div className="font-poster text-[10px] md:text-xs tracking-[0.3em] text-gold/80">A FILM CALLED</div>
             <div className="font-script italic text-2xl md:text-4xl text-gold-bright text-glow leading-none mt-1">
               Kabhi Alvida
-              <br />Naa Kehna
+              <br className="hidden md:block" /> Naa Kehna
             </div>
             <div className="font-poster text-[10px] md:text-xs tracking-[0.25em] text-ivory/70 mt-2">
               — NEVER SAY GOODBYE —
