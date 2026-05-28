@@ -31,35 +31,35 @@ function Hero() {
       /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-poster text-[8px] tracking-[0.25em] text-ivory/60", children: "5/5 · THE TEAM" })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "relative z-10 flex min-h-[78vh] items-center justify-center px-6 md:px-12", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative w-full max-w-6xl", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-center mb-12 md:mb-16 animate-float-up", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-[10px] md:text-xs tracking-[0.5em] text-ivory/60", children: "ROCK · PAPER · SCISSORS  PRESENTS" }) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute -top-6 md:-top-10 left-0 md:left-2 max-w-[55%] md:max-w-xs animate-float-up z-20", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative md:absolute md:-top-10 left-0 md:left-2 mb-8 md:mb-0 max-w-full md:max-w-xs animate-float-up z-20", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-[10px] md:text-xs tracking-[0.3em] text-gold/80", children: "STARRING" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-script italic text-2xl md:text-4xl text-gold-bright text-glow leading-none mt-1", children: "Pavitra Mani" }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "font-poster text-[10px] md:text-xs tracking-[0.25em] text-ivory/70 mt-2", children: [
           "AS THE HEAD OF PRODUCT,",
-          /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-          "OPERATIONS & EXCELLENCE"
+          /* @__PURE__ */ jsxRuntimeExports.jsx("br", { className: "hidden md:block" }),
+          " OPERATIONS & EXCELLENCE"
         ] })
       ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-center mb-6 md:mb-16 animate-float-up", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-[10px] md:text-xs tracking-[0.5em] text-ivory/60", children: "ROCK · PAPER · SCISSORS  PRESENTS" }) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(
         "h1",
         {
           className: "font-display font-black text-center leading-[0.82] text-gradient-gold animate-flicker select-none tracking-tight",
-          style: { fontSize: "clamp(7rem, 26vw, 21rem)" },
+          style: { fontSize: "clamp(6.5rem, 26vw, 21rem)" },
           children: "HOPE"
         }
       ),
       /* @__PURE__ */ jsxRuntimeExports.jsxs(
         "div",
         {
-          className: "absolute -bottom-20 md:-bottom-28 right-0 md:right-2 max-w-[60%] md:max-w-md text-right animate-float-up z-20",
+          className: "relative md:absolute md:-bottom-28 right-0 md:right-2 mt-6 md:mt-0 max-w-full md:max-w-md text-right animate-float-up z-20",
           style: { animationDelay: "0.3s" },
           children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-[10px] md:text-xs tracking-[0.3em] text-gold/80", children: "A FILM CALLED" }),
             /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "font-script italic text-2xl md:text-4xl text-gold-bright text-glow leading-none mt-1", children: [
               "Kabhi Alvida",
-              /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-              "Naa Kehna"
+              /* @__PURE__ */ jsxRuntimeExports.jsx("br", { className: "hidden md:block" }),
+              " Naa Kehna"
             ] }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-[10px] md:text-xs tracking-[0.25em] text-ivory/70 mt-2", children: "— NEVER SAY GOODBYE —" })
           ]
@@ -140,34 +140,14 @@ function StarringRole() {
         "Pavitra ",
         /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-gradient-gold", children: "Mani" })
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "border-l-2 border-gold/60 pl-4 py-1", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-script italic text-xl md:text-2xl text-gold-bright", children: "“Bade bade studios mein aisi chhoti chhoti baatein hoti rehti hai, Senorita…”" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-poster text-[10px] tracking-[0.3em] text-gold/60 mt-1", children: "— DDLJ, 1995 (the unofficial RPS anthem)" })
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-ivory/85 leading-relaxed text-base md:text-lg", children: [
-        "Officially at Rock Paper Scissors Studio: Head of Product, Operations & Excellence. Unofficially: the ultimate",
-        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: " Om Shanti Om " }),
-        "director working behind the scenes. From clearing payments to keeping the RPS crew from completely falling apart, she handled everything with the grace of an experienced Yoga Instructor and the sheer willpower of a true devotee of Lord Shiva."
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-ivory/85 leading-relaxed text-base md:text-lg", children: [
-        "When the studio floor felt like the chaotic climax of a Rohit Shetty film, she remained our anchor in a perfect headstand. She'd inhale the madness, exhale pure Goan",
-        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: " susegad" }),
-        ", and channel full",
-        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: " “Main Hoon Na” " }),
-        "energy to save the day. Every crisis was met with a Shah Rukh Khan dialogue and a gentle reminder to just breathe."
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-6 text-ivory/90 leading-relaxed text-base md:text-lg", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "As the Head of Product, Operations & Excellence at Rock Paper Scissors Studio, Pavitra didn’t just manage workflows—she directed our daily lives with the flair of a classic Shah Rukh Khan blockbuster. Whether she was clearing payments or preventing the entire studio from descending into complete chaos, she did it all with the unshakable balance of a seasoned yoga instructor." }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "While the rest of the team scrambled to meet deadlines, she remained our spiritual anchor, drawing quiet strength from her devotion to Lord Shiva to keep us all grounded. Every operational fire was put out with a gentle reminder to breathe, a perfectly timed Bollywood dialogue, and a warm smile. She wasn't just keeping the studio running; she was the heartbeat of our everyday production." })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-2 gap-3 pt-4", children: traits.map((t) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "border-l-2 border-gold/60 pl-3", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-[10px] tracking-[0.3em] text-gold/70", children: t.label }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-script italic text-ivory", children: t.value })
-      ] }, t.label)) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "pt-4 border-t border-gold/20", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "font-script italic text-lg md:text-xl text-ivory/90", children: [
-          "“Don ko pakadna mushkil hi nahi, ",
-          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-gold-bright", children: "namumkin hai" }),
-          ".”"
-        ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-poster text-[10px] tracking-[0.3em] text-gold/60 mt-1", children: "— also: getting on her calendar without a 9 AM slot." })
-      ] })
+      ] }, t.label)) })
     ] })
   ] }) });
 }
@@ -216,44 +196,32 @@ const staticQuotes = [
   {
     id: "q1",
     text: "Whenever RPS felt like a chaotic movie set, you brought the perfect Zen energy. Between reminding us to breathe and dropping SRK dialogues, you were the truest 'Om Shanti Om' of the studio.",
-    by: "A grateful Team Lead",
-    dialogue: "Picture abhi baaki hai, mere dost.",
-    film: "OM SHANTI OM, 2007"
+    by: "A grateful Team Lead"
   },
   {
     id: "q2",
     text: "Pavitra managed operations like she manages her Yoga poses—with perfect balance and an unwavering focus. And whenever we needed strength, her 'Har Har Mahadev' spirit was contagious.",
-    by: "The Ops Squad",
-    dialogue: "Sachi mohabbat zindagi mein sirf ek baar hoti hai...",
-    film: "KABHI KHUSHI KABHIE GHAM, 2001"
+    by: "The Ops Squad"
   },
   {
     id: "q3",
     text: "You always said the universe conspires to make things happen. Thank you for conspiring to make our time at RPS so incredibly smooth. Enjoy those beautiful Goan sunsets!",
-    by: "The Design Team",
-    dialogue: "Itni shiddat se maine tumhe paane ki koshish ki hai, ki har zarre ne mujhe tumse milane ki saazish ki hai.",
-    film: "OM SHANTI OM, 2007"
+    by: "The Design Team"
   },
   {
     id: "q4",
     text: "Life is very unfair because the person leaving us is not just our Head of Operations but also our spiritual anchor. May Lord Shiva bless your next big blockbuster journey.",
-    by: "Everyone, slightly off-balance",
-    dialogue: "Kuch kuch hota hai... tum nahi samjhogi.",
-    film: "KUCH KUCH HOTA HAI, 1998"
+    by: "Everyone, slightly off-balance"
   },
   {
     id: "q5",
     text: "From clearing payments to restoring inner peace, no one else could channel 'Main Hoon Na' energy quite like you. Keep spreading the magic, Pavitra.",
-    by: "Shalini from Finance",
-    dialogue: "Main Hoon Na.",
-    film: "MAIN HOON NA, 2004"
+    by: "Shalini from Finance"
   },
   {
     id: "q6",
     text: "Bade bade studios mein aisi operations head baar baar nahi milti. We will miss your Yoga tips, your Goan vibes, and most of all, your heart.",
-    by: "The Entire RPS Family",
-    dialogue: "Bade bade deshon mein aisi chhoti chhoti baatein hoti rehti hai...",
-    film: "DDLJ, 1995"
+    by: "The Entire RPS Family"
   }
 ];
 function Quotes() {
@@ -277,17 +245,6 @@ function Quotes() {
             '"',
             q.text,
             '"'
-          ] }),
-          q.dialogue && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-5 border-l-2 border-accent/60 pl-3", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "font-script italic text-base text-gold-bright", children: [
-              "“",
-              q.dialogue,
-              "”"
-            ] }),
-            q.film && /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "font-poster text-[10px] tracking-[0.3em] text-gold/60 mt-1", children: [
-              "— ",
-              q.film
-            ] })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-5 flex items-center gap-3", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "h-px w-8 bg-gold" }),
@@ -321,21 +278,15 @@ function PhotoStrip() {
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative -mx-6 md:-mx-12 overflow-x-auto pb-6 film-grain", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-[#0a0608] py-2 shadow-poster", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx(Sprockets, { count: 20 }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "px-4 py-5", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex gap-4", children: photos.map((src, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative group shrink-0", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx(
-            "img",
-            {
-              src,
-              alt: `Frame ${i + 1}`,
-              loading: "lazy",
-              className: "h-72 md:h-96 w-56 md:w-72 object-cover border-[3px] border-foreground/20"
-            }
-          ),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute top-2 left-2 font-poster text-[10px] tracking-[0.3em] text-gold-bright bg-background/70 px-2 py-0.5", children: [
-            "FRAME ",
-            String(i + 1).padStart(3, "0")
-          ] })
-        ] }, i)) }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "px-4 py-5", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex gap-4", children: photos.map((src, i) => /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "relative group shrink-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "img",
+          {
+            src,
+            alt: `Frame ${i + 1}`,
+            loading: "lazy",
+            className: "h-72 md:h-96 w-56 md:w-72 object-cover border-[3px] border-foreground/20"
+          }
+        ) }, i)) }) }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(Sprockets, { count: 20 })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-center mt-4 font-poster text-[10px] tracking-[0.4em] text-gold/60", children: "◀  SCROLL THE REEL  ▶" })
@@ -345,38 +296,11 @@ function PhotoStrip() {
 function Finale() {
   return /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "relative py-24 px-6 md:px-12 bg-poster film-grain overflow-hidden", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-4xl mx-auto text-center relative", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster tracking-[0.5em] text-gold mb-6", children: "★ INTERMISSION, NOT THE END ★" }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "font-display text-5xl md:text-7xl text-gradient-gold animate-flicker leading-tight", children: [
-      "The End?",
-      /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-ivory text-4xl md:text-5xl", children: "Nahi yaar, sirf interval." })
-    ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "mt-10 text-lg md:text-xl text-ivory/90 max-w-2xl mx-auto leading-relaxed", children: [
-      "Leaving Rock Paper Scissors Studio doesn't mean you have to run to catch a train like Kajol in",
-      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: " DDLJ " }),
-      "— you're already living the dream in Goa! Go ahead and strut down the beach in slow motion while the rest of us weep into our chai, waiting for our own Yash Chopra miracle."
-    ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-10 border-y border-gold/30 py-6", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "font-script italic text-2xl md:text-3xl text-gold-bright leading-snug", children: [
-        "“Tussi ja rahe ho?",
-        /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-ivory", children: "Tussi na jao!" }),
-        "” 🥺"
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-poster text-[10px] tracking-[0.4em] text-gold/60 mt-3", children: "— KABHI KHUSHI KABHIE GHAM, 2001" })
-    ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "mt-10 text-base md:text-lg text-ivory/85 max-w-2xl mx-auto leading-relaxed", children: [
-      "May your post-RPS days be filled with magical Goan sunsets, endless",
-      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: " susegad" }),
-      ", peaceful morning yoga sessions, the unwavering strength of Lord Shiva, a whole lot of Shah Rukh swagger — and exactly ",
-      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: "zero" }),
-      " operations crises to manage."
-    ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-8 font-script italic text-xl md:text-2xl text-gold-bright", children: "“Picture abhi baaki hai, mere dost.”" }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-poster text-[10px] tracking-[0.4em] text-gold/60 mt-1", children: "— OM SHANTI OM, 2007" }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-10 text-base md:text-lg text-ivory/85 italic font-script", children: "Hopefully someday we'll all meet again in Goa — sitting by the seashore, pretending to meditate, actually laughing, recollecting every scene. 🌊🧘‍♀️" }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-14 inline-flex flex-col items-center gap-2", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-poster tracking-[0.4em] text-gold-bright text-sm", children: "— WITH LOTS OF JADOO KI JHAPPIS —" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-display text-2xl text-ivory", children: "The Whole RPS Team ♥" })
+    /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display text-5xl md:text-7xl text-gradient-gold animate-flicker leading-tight mb-10", children: "The End?" }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-6", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-ivory/90 text-lg md:text-xl leading-relaxed", children: "Leaving Rock Paper Scissors Studio doesn’t mean you have to look back with tears in your eyes. You are already living the dream in Goa, surrounded by peaceful beaches and quiet mornings. We can already picture you doing your sunrise yoga by the ocean, channeling your inner Shah Rukh Khan swagger, and finally enjoying a life where there are absolutely zero operational crises or junior resources to manage." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-ivory/90 text-lg md:text-xl leading-relaxed", children: "Even though you are moving on to your next big adventure, your story here will always be our favorite. As you start this beautiful new chapter, may Lord Shiva bless your path with endless peace and joy. We will miss you deeply, but we know the picture is far from over." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "pt-8 border-t border-gold/30", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-script italic text-2xl md:text-4xl text-ivory mt-4", children: "With love, the RPS family" }) })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-14 flex items-center justify-center gap-6 text-gold/60 text-2xl", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "🎬" }),

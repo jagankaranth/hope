@@ -5,56 +5,23 @@ export function Finale() {
         <div className="font-poster tracking-[0.5em] text-gold mb-6">
           ★ INTERMISSION, NOT THE END ★
         </div>
-        <h2 className="font-display text-5xl md:text-7xl text-gradient-gold animate-flicker leading-tight">
+        <h2 className="font-display text-5xl md:text-7xl text-gradient-gold animate-flicker leading-tight mb-10">
           The End?
-          <br />
-          <span className="font-script italic text-ivory text-4xl md:text-5xl">
-            Nahi yaar, sirf interval.
-          </span>
         </h2>
 
-        <p className="mt-10 text-lg md:text-xl text-ivory/90 max-w-2xl mx-auto leading-relaxed">
-          Leaving Rock Paper Scissors Studio doesn't mean you have to run to catch a train like Kajol in
-          <span className="font-script italic text-gold-bright"> DDLJ </span>—
-          you're already living the dream in Goa! Go ahead and strut down the beach in slow motion while
-          the rest of us weep into our chai, waiting for our own Yash Chopra miracle.
-        </p>
-
-        <div className="mt-10 border-y border-gold/30 py-6">
-          <p className="font-script italic text-2xl md:text-3xl text-gold-bright leading-snug">
-            “Tussi ja rahe ho?
-            <br />
-            <span className="text-ivory">Tussi na jao!</span>” 🥺
+        <div className="space-y-6">
+          <p className="text-ivory/90 text-lg md:text-xl leading-relaxed">
+            Leaving Rock Paper Scissors Studio doesn’t mean you have to look back with tears in your eyes. You are already living the dream in Goa, surrounded by peaceful beaches and quiet mornings. We can already picture you doing your sunrise yoga by the ocean, channeling your inner Shah Rukh Khan swagger, and finally enjoying a life where there are absolutely zero operational crises or junior resources to manage.
           </p>
-          <p className="font-poster text-[10px] tracking-[0.4em] text-gold/60 mt-3">
-            — KABHI KHUSHI KABHIE GHAM, 2001
+          <p className="text-ivory/90 text-lg md:text-xl leading-relaxed">
+            Even though you are moving on to your next big adventure, your story here will always be our favorite. As you start this beautiful new chapter, may Lord Shiva bless your path with endless peace and joy. We will miss you deeply, but we know the picture is far from over.
           </p>
-        </div>
-
-        <p className="mt-10 text-base md:text-lg text-ivory/85 max-w-2xl mx-auto leading-relaxed">
-          May your post-RPS days be filled with magical Goan sunsets, endless
-          <span className="font-script italic text-gold-bright"> susegad</span>,
-          peaceful morning yoga sessions, the unwavering strength of Lord Shiva, a whole lot of Shah Rukh swagger —
-          and exactly <span className="font-script italic text-gold-bright">zero</span> operations crises to manage.
-        </p>
-
-        <p className="mt-8 font-script italic text-xl md:text-2xl text-gold-bright">
-          “Picture abhi baaki hai, mere dost.”
-        </p>
-        <p className="font-poster text-[10px] tracking-[0.4em] text-gold/60 mt-1">
-          — OM SHANTI OM, 2007
-        </p>
-
-        <p className="mt-10 text-base md:text-lg text-ivory/85 italic font-script">
-          Hopefully someday we'll all meet again in Goa — sitting by the seashore,
-          pretending to meditate, actually laughing, recollecting every scene. 🌊🧘‍♀️
-        </p>
-
-        <div className="mt-14 inline-flex flex-col items-center gap-2">
-          <span className="font-poster tracking-[0.4em] text-gold-bright text-sm">
-            — WITH LOTS OF JADOO KI JHAPPIS —
-          </span>
-          <span className="font-display text-2xl text-ivory">The Whole RPS Team ♥</span>
+          
+          <div className="pt-8 border-t border-gold/30">
+            <p className="font-script italic text-2xl md:text-4xl text-ivory mt-4">
+              With love, the RPS family
+            </p>
+          </div>
         </div>
 
         <div className="mt-14 flex items-center justify-center gap-6 text-gold/60 text-2xl">

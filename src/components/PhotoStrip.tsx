@@ -46,9 +46,7 @@ export function PhotoStrip() {
                     loading="lazy"
                     className="h-72 md:h-96 w-56 md:w-72 object-cover border-[3px] border-foreground/20"
                   />
-                  <div className="absolute top-2 left-2 font-poster text-[10px] tracking-[0.3em] text-gold-bright bg-background/70 px-2 py-0.5">
-                    FRAME {String(i + 1).padStart(3, "0")}
-                  </div>
+
 
                 </div>
               ))}

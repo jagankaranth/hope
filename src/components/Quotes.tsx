@@ -6,7 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Quote as QuoteIcon, Plus, X } from "lucide-react";
 
-type Quote = { id: string; text: string; by: string; dialogue?: string; film?: string };
+type Quote = { id: string; text: string; by: string };
 
 const STORAGE_KEY = "pavitra-quotes-v2";
 
@@ -15,43 +15,31 @@ const staticQuotes: Quote[] = [
     id: "q1",
     text: "Whenever RPS felt like a chaotic movie set, you brought the perfect Zen energy. Between reminding us to breathe and dropping SRK dialogues, you were the truest 'Om Shanti Om' of the studio.",
     by: "A grateful Team Lead",
-    dialogue: "Picture abhi baaki hai, mere dost.",
-    film: "OM SHANTI OM, 2007",
   },
   {
     id: "q2",
     text: "Pavitra managed operations like she manages her Yoga poses—with perfect balance and an unwavering focus. And whenever we needed strength, her 'Har Har Mahadev' spirit was contagious.",
     by: "The Ops Squad",
-    dialogue: "Sachi mohabbat zindagi mein sirf ek baar hoti hai...",
-    film: "KABHI KHUSHI KABHIE GHAM, 2001",
   },
   {
     id: "q3",
     text: "You always said the universe conspires to make things happen. Thank you for conspiring to make our time at RPS so incredibly smooth. Enjoy those beautiful Goan sunsets!",
     by: "The Design Team",
-    dialogue: "Itni shiddat se maine tumhe paane ki koshish ki hai, ki har zarre ne mujhe tumse milane ki saazish ki hai.",
-    film: "OM SHANTI OM, 2007",
   },
   {
     id: "q4",
     text: "Life is very unfair because the person leaving us is not just our Head of Operations but also our spiritual anchor. May Lord Shiva bless your next big blockbuster journey.",
     by: "Everyone, slightly off-balance",
-    dialogue: "Kuch kuch hota hai... tum nahi samjhogi.",
-    film: "KUCH KUCH HOTA HAI, 1998",
   },
   {
     id: "q5",
     text: "From clearing payments to restoring inner peace, no one else could channel 'Main Hoon Na' energy quite like you. Keep spreading the magic, Pavitra.",
     by: "Shalini from Finance",
-    dialogue: "Main Hoon Na.",
-    film: "MAIN HOON NA, 2004",
   },
   {
     id: "q6",
     text: "Bade bade studios mein aisi operations head baar baar nahi milti. We will miss your Yoga tips, your Goan vibes, and most of all, your heart.",
     by: "The Entire RPS Family",
-    dialogue: "Bade bade deshon mein aisi chhoti chhoti baatein hoti rehti hai...",
-    film: "DDLJ, 1995",
   },
 ];
 
@@ -83,18 +71,7 @@ export function Quotes() {
               <p className="font-script italic text-lg md:text-xl text-ivory leading-relaxed">
                 "{q.text}"
               </p>
-              {q.dialogue && (
-                <div className="mt-5 border-l-2 border-accent/60 pl-3">
-                  <p className="font-script italic text-base text-gold-bright">
-                    “{q.dialogue}”
-                  </p>
-                  {q.film && (
-                    <p className="font-poster text-[10px] tracking-[0.3em] text-gold/60 mt-1">
-                      — {q.film}
-                    </p>
-                  )}
-                </div>
-              )}
+
               <div className="mt-5 flex items-center gap-3">
                 <span className="h-px w-8 bg-gold" />
                 <span className="font-poster text-xs tracking-[0.3em] text-gold">

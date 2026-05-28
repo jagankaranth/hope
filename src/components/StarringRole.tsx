@@ -42,28 +42,14 @@ export function StarringRole() {
             Pavitra <span className="text-gradient-gold">Mani</span>
           </h2>
 
-          {/* Inline filmy dialogue */}
-          <div className="border-l-2 border-gold/60 pl-4 py-1">
-            <p className="font-script italic text-xl md:text-2xl text-gold-bright">
-              “Bade bade studios mein aisi chhoti chhoti baatein hoti rehti hai, Senorita…”
+          <div className="space-y-6 text-ivory/90 leading-relaxed text-base md:text-lg">
+            <p>
+              As the Head of Product, Operations &amp; Excellence at Rock Paper Scissors Studio, Pavitra didn’t just manage workflows—she directed our daily lives with the flair of a classic Shah Rukh Khan blockbuster. Whether she was clearing payments or preventing the entire studio from descending into complete chaos, she did it all with the unshakable balance of a seasoned yoga instructor.
             </p>
-            <p className="font-poster text-[10px] tracking-[0.3em] text-gold/60 mt-1">
-              — DDLJ, 1995 (the unofficial RPS anthem)
+            <p>
+              While the rest of the team scrambled to meet deadlines, she remained our spiritual anchor, drawing quiet strength from her devotion to Lord Shiva to keep us all grounded. Every operational fire was put out with a gentle reminder to breathe, a perfectly timed Bollywood dialogue, and a warm smile. She wasn't just keeping the studio running; she was the heartbeat of our everyday production.
             </p>
           </div>
-
-          <p className="text-ivory/85 leading-relaxed text-base md:text-lg">
-            Officially at Rock Paper Scissors Studio: Head of Product, Operations &amp; Excellence. Unofficially: the ultimate 
-            <span className="font-script italic text-gold-bright"> Om Shanti Om </span>
-            director working behind the scenes. From clearing payments to keeping the RPS crew from completely falling apart, she handled everything with the grace of an experienced Yoga Instructor and the sheer willpower of a true devotee of Lord Shiva.
-          </p>
-
-          <p className="text-ivory/85 leading-relaxed text-base md:text-lg">
-            When the studio floor felt like the chaotic climax of a Rohit Shetty film, she remained our anchor in a perfect headstand. She'd inhale the madness, exhale pure Goan 
-            <span className="font-script italic text-gold-bright"> susegad</span>, and channel full 
-            <span className="font-script italic text-gold-bright"> “Main Hoon Na” </span>
-            energy to save the day. Every crisis was met with a Shah Rukh Khan dialogue and a gentle reminder to just breathe.
-          </p>
 
           <div className="grid grid-cols-2 gap-3 pt-4">
             {traits.map((t) => (
@@ -74,15 +60,7 @@ export function StarringRole() {
             ))}
           </div>
 
-          {/* Closing dialogue */}
-          <div className="pt-4 border-t border-gold/20">
-            <p className="font-script italic text-lg md:text-xl text-ivory/90">
-              “Don ko pakadna mushkil hi nahi, <span className="text-gold-bright">namumkin hai</span>.”
-            </p>
-            <p className="font-poster text-[10px] tracking-[0.3em] text-gold/60 mt-1">
-              — also: getting on her calendar without a 9 AM slot.
-            </p>
-          </div>
+
         </div>
       </div>
     </section>
