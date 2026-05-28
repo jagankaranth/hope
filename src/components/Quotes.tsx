@@ -13,6 +13,15 @@ const STORAGE_KEY = "pavitra-quotes-v2";
 
 const staticQuotes: Quote[] = [
   {
+    id: "q_parvathy",
+    text: (
+      <>
+        Pavitra, thank you for everything, for always being so kind and supportive. It’s been amazing working with you, and you’ll truly be missed. Wishing you all the best for what’s ahead.
+      </>
+    ),
+    by: "Parvathy Pillai",
+  },
+  {
     id: "q1",
     text: (
       <>
