@@ -16,55 +16,28 @@ const staticQuotes: Quote[] = [
     id: "q1",
     text: (
       <>
-        Whenever RPS felt like a chaotic movie set, you brought the perfect Zen energy. Between reminding us to breathe and dropping SRK dialogues, you were the truest <span className="font-script italic text-gold-bright">Om Shanti Om</span> of the studio.
+        Hi Pavitra, first of all, thank you for being my first therapist (I will never forget that day). To me, you’ve always been the brightest star at RPS. I hope you carry that spark forever and spread your light everywhere you go. We will definitely miss you.
       </>
     ),
-    by: "A grateful Team Lead",
+    by: "Harshitha Ennamuri",
   },
   {
     id: "q2",
     text: (
       <>
-        Pavitra managed operations like she manages her Yoga poses with perfect balance and an unwavering focus. And whenever we needed strength, her Har Har Mahadev spirit was contagious. <span className="font-script italic text-gold-bright">Sachi mohabbat zindagi mein sirf ek baar hoti hai</span>, and a leader like you comes only once too.
+        While we bid you a tearful goodbye, with the mandatory "tussi na jao!" I'd like to say ki <span className="font-script italic text-gold-bright">"picture abhi baaki hai, mere dost!"</span>
       </>
     ),
-    by: "The Ops Squad",
+    by: "Nikhil Gadkar",
   },
   {
     id: "q3",
     text: (
       <>
-        You always said the universe conspires to make things happen. <span className="font-script italic text-gold-bright">Itni shiddat se maine tumhe paane ki koshish ki hai, ki har zarre ne mujhe tumse milane ki saazish ki hai.</span> Thank you for conspiring to make our time at RPS so incredibly smooth. Enjoy those beautiful Goan sunsets!
+        Dear Pavitra, from my very first day at RPS, you were there—guiding me through onboarding, answering endless questions, and keeping me on track. You made joining a new company feel easy and less overwhelming. To me, you will always be the one who helped me grow. Plus, life is unfair: who is going to restore our balance and inner peace now that our Operations Head and resident Yoga Instructor is leaving? 😄 Wishing you happiness and peace on your next adventure. Hopefully we'll meet in Goa soon, pretending to meditate by the seashore while actually laughing over our shared memories! 🌊🧘‍♀️ You will truly be missed. ❤️
       </>
     ),
-    by: "The Design Team",
-  },
-  {
-    id: "q4",
-    text: (
-      <>
-        Life is very unfair because the person leaving us is not just our Head of Operations but also our spiritual anchor. <span className="font-script italic text-gold-bright">Kuch kuch hota hai</span> when we think about you leaving. May Lord Shiva bless your next big blockbuster journey.
-      </>
-    ),
-    by: "Everyone, slightly off-balance",
-  },
-  {
-    id: "q5",
-    text: (
-      <>
-        From clearing payments to restoring inner peace, no one else could channel <span className="font-script italic text-gold-bright">Main Hoon Na</span> energy quite like you. Keep spreading the magic, Pavitra.
-      </>
-    ),
-    by: "Shalini from Finance",
-  },
-  {
-    id: "q6",
-    text: (
-      <>
-        <span className="font-script italic text-gold-bright">Bade bade studios mein</span> aisi operations head baar baar nahi milti. We will miss your Yoga tips, your Goan vibes, and most of all, your beautiful heart.
-      </>
-    ),
-    by: "The Entire RPS Family",
+    by: "Jagan Karanth",
   },
 ];
 
@@ -90,7 +63,9 @@ export function Quotes() {
           {quotes.map((q, i) => (
             <Card
               key={q.id}
-              className="group relative bg-background/40 backdrop-blur border-gold/20 p-6 md:p-8 hover:border-gold/60 transition-all"
+              className={`group relative bg-background/40 backdrop-blur border-gold/20 p-6 md:p-8 hover:border-gold/60 transition-all ${
+                i === 2 ? "md:col-span-2" : ""
+              }`}
             >
               <QuoteIcon className="h-8 w-8 text-gold/60 mb-3" />
               <p className="font-script italic text-lg md:text-xl text-ivory leading-relaxed">

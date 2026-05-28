@@ -227,56 +227,21 @@ CardFooter.displayName = "CardFooter";
 const staticQuotes = [
   {
     id: "q1",
-    text: /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
-      "Whenever RPS felt like a chaotic movie set, you brought the perfect Zen energy. Between reminding us to breathe and dropping SRK dialogues, you were the truest ",
-      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: "Om Shanti Om" }),
-      " of the studio."
-    ] }),
-    by: "A grateful Team Lead"
+    text: /* @__PURE__ */ jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, { children: "Hi Pavitra, first of all, thank you for being my first therapist (I will never forget that day). To me, you’ve always been the brightest star at RPS. I hope you carry that spark forever and spread your light everywhere you go. We will definitely miss you." }),
+    by: "Harshitha Ennamuri"
   },
   {
     id: "q2",
     text: /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
-      "Pavitra managed operations like she manages her Yoga poses with perfect balance and an unwavering focus. And whenever we needed strength, her Har Har Mahadev spirit was contagious. ",
-      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: "Sachi mohabbat zindagi mein sirf ek baar hoti hai" }),
-      ", and a leader like you comes only once too."
+      `While we bid you a tearful goodbye, with the mandatory "tussi na jao!" I'd like to say ki `,
+      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: '"picture abhi baaki hai, mere dost!"' })
     ] }),
-    by: "The Ops Squad"
+    by: "Nikhil Gadkar"
   },
   {
     id: "q3",
-    text: /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
-      "You always said the universe conspires to make things happen. ",
-      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: "Itni shiddat se maine tumhe paane ki koshish ki hai, ki har zarre ne mujhe tumse milane ki saazish ki hai." }),
-      " Thank you for conspiring to make our time at RPS so incredibly smooth. Enjoy those beautiful Goan sunsets!"
-    ] }),
-    by: "The Design Team"
-  },
-  {
-    id: "q4",
-    text: /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
-      "Life is very unfair because the person leaving us is not just our Head of Operations but also our spiritual anchor. ",
-      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: "Kuch kuch hota hai" }),
-      " when we think about you leaving. May Lord Shiva bless your next big blockbuster journey."
-    ] }),
-    by: "Everyone, slightly off-balance"
-  },
-  {
-    id: "q5",
-    text: /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
-      "From clearing payments to restoring inner peace, no one else could channel ",
-      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: "Main Hoon Na" }),
-      " energy quite like you. Keep spreading the magic, Pavitra."
-    ] }),
-    by: "Shalini from Finance"
-  },
-  {
-    id: "q6",
-    text: /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: "Bade bade studios mein" }),
-      " aisi operations head baar baar nahi milti. We will miss your Yoga tips, your Goan vibes, and most of all, your beautiful heart."
-    ] }),
-    by: "The Entire RPS Family"
+    text: /* @__PURE__ */ jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, { children: "Dear Pavitra, from my very first day at RPS, you were there—guiding me through onboarding, answering endless questions, and keeping me on track. You made joining a new company feel easy and less overwhelming. To me, you will always be the one who helped me grow. Plus, life is unfair: who is going to restore our balance and inner peace now that our Operations Head and resident Yoga Instructor is leaving? 😄 Wishing you happiness and peace on your next adventure. Hopefully we'll meet in Goa soon, pretending to meditate by the seashore while actually laughing over our shared memories! 🌊🧘‍♀️ You will truly be missed. ❤️" }),
+    by: "Jagan Karanth"
   }
 ];
 function Quotes() {
@@ -293,7 +258,7 @@ function Quotes() {
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid md:grid-cols-2 gap-6", children: quotes.map((q, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
       Card,
       {
-        className: "group relative bg-background/40 backdrop-blur border-gold/20 p-6 md:p-8 hover:border-gold/60 transition-all",
+        className: `group relative bg-background/40 backdrop-blur border-gold/20 p-6 md:p-8 hover:border-gold/60 transition-all ${i === 2 ? "md:col-span-2" : ""}`,
         children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(Quote, { className: "h-8 w-8 text-gold/60 mb-3" }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-script italic text-lg md:text-xl text-ivory leading-relaxed", children: q.text }),

@@ -1,7 +1,7 @@
 import { Q as QueryClient } from "../_libs/tanstack__query-core.mjs";
 import { Q as QueryClientProvider } from "../_libs/tanstack__react-query.mjs";
 import { b as createRouter, a as createRootRouteWithContext, u as useRouter, L as Link, O as Outlet, H as HeadContent, S as Scripts, c as createFileRoute, l as lazyRouteComponent } from "../_libs/tanstack__react-router.mjs";
-import { j as jsxRuntimeExports } from "../_libs/react.mjs";
+import { j as jsxRuntimeExports, r as reactExports } from "../_libs/react.mjs";
 import "../_libs/tanstack__router-core.mjs";
 import "../_libs/tanstack__history.mjs";
 import "../_libs/cookie-es.mjs";
@@ -15,7 +15,43 @@ import "crypto";
 import "async_hooks";
 import "stream";
 import "../_libs/isbot.mjs";
-const appCss = "/assets/styles-BSzYRW20.css";
+const appCss = "/assets/styles-dD8kXHzb.css";
+function RainEffect() {
+  const [drops, setDrops] = reactExports.useState([]);
+  reactExports.useEffect(() => {
+    const generatedDrops = Array.from({ length: 45 }).map((_, i) => {
+      const left = `${Math.random() * 100}%`;
+      const duration = `${1.2 + Math.random() * 0.8}s`;
+      const delay = `${Math.random() * 4}s`;
+      const height = `${60 + Math.random() * 60}px`;
+      const opacity = 0.15 + Math.random() * 0.25;
+      return {
+        id: i,
+        left,
+        duration,
+        delay,
+        height,
+        opacity
+      };
+    });
+    setDrops(generatedDrops);
+  }, []);
+  return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "fixed inset-0 pointer-events-none overflow-hidden select-none z-10", children: drops.map((drop) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+    "div",
+    {
+      className: "absolute top-[-150px] w-[1px] bg-gradient-to-b from-transparent to-gold/30 animate-rain",
+      style: {
+        left: drop.left,
+        height: drop.height,
+        animationDuration: drop.duration,
+        animationDelay: drop.delay,
+        opacity: drop.opacity,
+        transform: "rotate(15deg)"
+      }
+    },
+    drop.id
+  )) });
+}
 function NotFoundComponent() {
   return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex min-h-screen items-center justify-center bg-background px-4", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-md text-center", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-7xl font-bold text-foreground", children: "404" }),
@@ -121,9 +157,12 @@ function RootShell({ children }) {
 }
 function RootComponent() {
   const { queryClient } = Route$1.useRouteContext();
-  return /* @__PURE__ */ jsxRuntimeExports.jsx(QueryClientProvider, { client: queryClient, children: /* @__PURE__ */ jsxRuntimeExports.jsx(Outlet, {}) });
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs(QueryClientProvider, { client: queryClient, children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx(RainEffect, {}),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(Outlet, {})
+  ] });
 }
-const $$splitComponentImporter = () => import("./index-fudNs0OO.mjs");
+const $$splitComponentImporter = () => import("./index-spyWnhP_.mjs");
 const Route = createFileRoute("/")({
   head: () => ({
     meta: [{
