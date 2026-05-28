@@ -1,3 +1,6 @@
+import React from 'react';
+import rpsLogo from "@/assets/rock_paper_scissors_logo.svg";
+
 export function Finale() {
   return (
     <section className="relative py-24 px-6 md:px-12 bg-poster film-grain overflow-hidden">
@@ -11,15 +14,15 @@ export function Finale() {
 
         <div className="space-y-6">
           <p className="text-ivory/90 text-lg md:text-xl leading-relaxed">
-            Leaving Rock Paper Scissors Studio doesn’t mean you have to look back with tears in your eyes. You are already living the dream in Goa, surrounded by peaceful beaches and quiet mornings. We can already picture you doing your sunrise yoga by the ocean, channeling your inner Shah Rukh Khan swagger, and finally enjoying a life where there are absolutely zero operational crises or junior resources to manage.
+            Leaving Rock Paper Scissors Studio doesn’t mean you have to look back with tears in your eyes. You are already living the dream in Goa surrounded by peaceful beaches and quiet mornings. We can already picture you doing your sunrise yoga by the ocean, channeling your inner Shah Rukh Khan swagger, and finally enjoying a life where there are absolutely zero operational crises or junior resources to manage. Because remember, <span className="font-script italic text-gold-bright">picture abhi baaki hai mere dost</span>.
           </p>
           <p className="text-ivory/90 text-lg md:text-xl leading-relaxed">
-            Even though you are moving on to your next big adventure, your story here will always be our favorite. As you start this beautiful new chapter, may Lord Shiva bless your path with endless peace and joy. We will miss you deeply, but we know the picture is far from over.
+            Even though you are moving on to your next big adventure, your story here will always be our favorite. As you start this beautiful new chapter, may Lord Shiva bless your path with endless peace and joy. We will miss you deeply but we know the magic is far from over.
           </p>
           
           <div className="pt-8 border-t border-gold/30">
-            <p className="font-script italic text-2xl md:text-4xl text-ivory mt-4">
-              With love, the RPS family
+            <p className="font-script italic text-2xl md:text-4xl text-ivory mt-4 flex items-center justify-center gap-3">
+              With love, the <img src={rpsLogo} alt="Rock Paper Scissors Logo" className="h-10 md:h-14 w-auto inline-block opacity-90" /> family
             </p>
           </div>
         </div>
@@ -33,7 +36,7 @@ export function Finale() {
         </div>
 
         <div className="mt-10 font-poster tracking-[0.5em] text-gold/40 text-xs">
-          ★ THE END ★ &nbsp; ( OF THIS REEL ONLY )
+          ★ THE END ★
         </div>
       </div>
     </section>

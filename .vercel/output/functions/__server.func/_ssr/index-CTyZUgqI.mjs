@@ -3,6 +3,7 @@ import { c as clsx } from "../_libs/clsx.mjs";
 import { t as twMerge } from "../_libs/tailwind-merge.mjs";
 import { Q as Quote } from "../_libs/lucide-react.mjs";
 const heroBg = "/assets/hero-bg-BC23P0zG.jpg";
+const rpsLogo = "/assets/rock_paper_scissors_logo-Dy1ErWaK.svg";
 function Hero() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "relative min-h-screen w-full overflow-hidden film-grain bg-poster", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx(
@@ -40,7 +41,10 @@ function Hero() {
           " OPERATIONS & EXCELLENCE"
         ] })
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-center mb-6 md:mb-16 animate-float-up", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-[10px] md:text-xs tracking-[0.5em] text-ivory/60", children: "ROCK · PAPER · SCISSORS  PRESENTS" }) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-center mb-6 md:mb-16 animate-float-up", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "font-poster text-[10px] md:text-xs tracking-[0.5em] text-ivory/60 flex flex-col items-center justify-center gap-3", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: rpsLogo, alt: "Rock Paper Scissors Logo", className: "h-8 md:h-12 w-auto opacity-80" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "PRESENTS" })
+      ] }) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(
         "h1",
         {
@@ -61,47 +65,30 @@ function Hero() {
               /* @__PURE__ */ jsxRuntimeExports.jsx("br", { className: "hidden md:block" }),
               " Naa Kehna"
             ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-[10px] md:text-xs tracking-[0.25em] text-ivory/70 mt-2", children: "— NEVER SAY GOODBYE —" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-[10px] md:text-xs tracking-[0.25em] text-ivory/70 mt-2", children: "NEVER SAY GOODBYE" })
           ]
         }
       )
     ] }) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative z-10 text-center px-6 mt-6 md:mt-2", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-script italic text-lg md:text-2xl text-ivory/90", children: "“Picture abhi baaki hai, mere dost.”" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-poster text-[10px] md:text-xs tracking-[0.4em] text-gold/70 mt-2", children: "— A BOLLYWOOD FAREWELL IN FIVE REELS —" })
-    ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative z-10 mt-10 border-t border-gold/30 bg-background/50", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-2 md:grid-cols-4 gap-2 px-6 md:px-12 py-5 text-center", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-[9px] tracking-[0.3em] text-gold/70", children: "DIRECTED BY" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-script italic text-ivory mt-1", children: "Life Itself" })
-        ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-[9px] tracking-[0.3em] text-gold/70", children: "MUSIC BY" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-script italic text-ivory mt-1", children: "Shah Rukh Khan" })
-        ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-[9px] tracking-[0.3em] text-gold/70", children: "CHOREOGRAPHY" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-script italic text-ivory mt-1", children: "Yoga & Susegad" })
-        ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-[9px] tracking-[0.3em] text-gold/70", children: "PRODUCED BY" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-script italic text-ivory mt-1", children: "The Whole Team" })
-        ] })
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "relative z-10 text-center px-6 mt-6 md:mt-2", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-script italic text-lg md:text-2xl text-ivory/90", children: "Picture abhi baaki hai, mere dost." }) }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "relative z-10 mt-10 border-t border-gold/30 bg-background/50", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-2 md:grid-cols-4 gap-2 px-6 md:px-12 py-5 text-center", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-[9px] tracking-[0.3em] text-gold/70", children: "DIRECTED BY" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-script italic text-ivory mt-1", children: "Life Itself" })
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex items-center justify-center gap-4 pb-5", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
-        "a",
-        {
-          href: "#leading-lady",
-          className: "group inline-flex items-center gap-3 font-poster text-xs md:text-sm tracking-[0.3em] text-gold hover:text-gold-bright transition-colors",
-          children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "inline-block h-px w-10 bg-gold group-hover:w-16 transition-all" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "ROLL THE OPENING CREDITS" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "inline-block h-px w-10 bg-gold group-hover:w-16 transition-all" })
-          ]
-        }
-      ) })
-    ] })
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-[9px] tracking-[0.3em] text-gold/70", children: "MUSIC BY" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-script italic text-ivory mt-1", children: "Shah Rukh Khan" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-[9px] tracking-[0.3em] text-gold/70", children: "CHOREOGRAPHY" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-script italic text-ivory mt-1", children: "Yoga & Inner Peace" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-[9px] tracking-[0.3em] text-gold/70", children: "PRODUCED BY" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-script italic text-ivory mt-1", children: "The Whole Team" })
+      ] })
+    ] }) })
   ] });
 }
 const p1 = "/assets/placeholder-1-UCQ0_9jH.jpg";
@@ -141,8 +128,16 @@ function StarringRole() {
         /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-gradient-gold", children: "Mani" })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-6 text-ivory/90 leading-relaxed text-base md:text-lg", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "As the Head of Product, Operations & Excellence at Rock Paper Scissors Studio, Pavitra didn’t just manage workflows—she directed our daily lives with the flair of a classic Shah Rukh Khan blockbuster. Whether she was clearing payments or preventing the entire studio from descending into complete chaos, she did it all with the unshakable balance of a seasoned yoga instructor." }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "While the rest of the team scrambled to meet deadlines, she remained our spiritual anchor, drawing quiet strength from her devotion to Lord Shiva to keep us all grounded. Every operational fire was put out with a gentle reminder to breathe, a perfectly timed Bollywood dialogue, and a warm smile. She wasn't just keeping the studio running; she was the heartbeat of our everyday production." })
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
+          "As the Head of Product Operations and Excellence at Rock Paper Scissors Studio, Pavitra didn’t just manage workflows but directed our daily lives with the flair of a classic Shah Rukh Khan blockbuster. Whether she was clearing payments or preventing the entire studio from descending into complete chaos, she did it all with the unshakable balance of a seasoned yoga instructor. After all, she knew that ",
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: "bade bade studios mein aisi chhoti chhoti baatein hoti rehti hai" }),
+          "."
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
+          "While the rest of the team scrambled to meet deadlines, she remained our spiritual anchor. She drew quiet strength from her devotion to Lord Shiva to keep us all grounded. Every operational fire was put out with a gentle reminder to breathe, a perfectly timed Bollywood dialogue, and a warm smile. She wasn't just keeping the studio running. She was the heartbeat of our everyday production, spreading that ",
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: "Main Hoon Na" }),
+          " energy whenever we needed saving."
+        ] })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-2 gap-3 pt-4", children: traits.map((t) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "border-l-2 border-gold/60 pl-3", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster text-[10px] tracking-[0.3em] text-gold/70", children: t.label }),
@@ -195,32 +190,55 @@ CardFooter.displayName = "CardFooter";
 const staticQuotes = [
   {
     id: "q1",
-    text: "Whenever RPS felt like a chaotic movie set, you brought the perfect Zen energy. Between reminding us to breathe and dropping SRK dialogues, you were the truest 'Om Shanti Om' of the studio.",
+    text: /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
+      "Whenever RPS felt like a chaotic movie set, you brought the perfect Zen energy. Between reminding us to breathe and dropping SRK dialogues, you were the truest ",
+      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: "Om Shanti Om" }),
+      " of the studio."
+    ] }),
     by: "A grateful Team Lead"
   },
   {
     id: "q2",
-    text: "Pavitra managed operations like she manages her Yoga poses—with perfect balance and an unwavering focus. And whenever we needed strength, her 'Har Har Mahadev' spirit was contagious.",
+    text: /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
+      "Pavitra managed operations like she manages her Yoga poses with perfect balance and an unwavering focus. And whenever we needed strength, her Har Har Mahadev spirit was contagious. ",
+      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: "Sachi mohabbat zindagi mein sirf ek baar hoti hai" }),
+      ", and a leader like you comes only once too."
+    ] }),
     by: "The Ops Squad"
   },
   {
     id: "q3",
-    text: "You always said the universe conspires to make things happen. Thank you for conspiring to make our time at RPS so incredibly smooth. Enjoy those beautiful Goan sunsets!",
+    text: /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
+      "You always said the universe conspires to make things happen. ",
+      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: "Itni shiddat se maine tumhe paane ki koshish ki hai, ki har zarre ne mujhe tumse milane ki saazish ki hai." }),
+      " Thank you for conspiring to make our time at RPS so incredibly smooth. Enjoy those beautiful Goan sunsets!"
+    ] }),
     by: "The Design Team"
   },
   {
     id: "q4",
-    text: "Life is very unfair because the person leaving us is not just our Head of Operations but also our spiritual anchor. May Lord Shiva bless your next big blockbuster journey.",
+    text: /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
+      "Life is very unfair because the person leaving us is not just our Head of Operations but also our spiritual anchor. ",
+      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: "Kuch kuch hota hai" }),
+      " when we think about you leaving. May Lord Shiva bless your next big blockbuster journey."
+    ] }),
     by: "Everyone, slightly off-balance"
   },
   {
     id: "q5",
-    text: "From clearing payments to restoring inner peace, no one else could channel 'Main Hoon Na' energy quite like you. Keep spreading the magic, Pavitra.",
+    text: /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
+      "From clearing payments to restoring inner peace, no one else could channel ",
+      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: "Main Hoon Na" }),
+      " energy quite like you. Keep spreading the magic, Pavitra."
+    ] }),
     by: "Shalini from Finance"
   },
   {
     id: "q6",
-    text: "Bade bade studios mein aisi operations head baar baar nahi milti. We will miss your Yoga tips, your Goan vibes, and most of all, your heart.",
+    text: /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: "Bade bade studios mein" }),
+      " aisi operations head baar baar nahi milti. We will miss your Yoga tips, your Goan vibes, and most of all, your beautiful heart."
+    ] }),
     by: "The Entire RPS Family"
   }
 ];
@@ -241,11 +259,7 @@ function Quotes() {
         className: "group relative bg-background/40 backdrop-blur border-gold/20 p-6 md:p-8 hover:border-gold/60 transition-all",
         children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(Quote, { className: "h-8 w-8 text-gold/60 mb-3" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "font-script italic text-lg md:text-xl text-ivory leading-relaxed", children: [
-            '"',
-            q.text,
-            '"'
-          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-script italic text-lg md:text-xl text-ivory leading-relaxed", children: q.text }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-5 flex items-center gap-3", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "h-px w-8 bg-gold" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-poster text-xs tracking-[0.3em] text-gold", children: q.by.toUpperCase() })
@@ -298,9 +312,17 @@ function Finale() {
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-poster tracking-[0.5em] text-gold mb-6", children: "★ INTERMISSION, NOT THE END ★" }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display text-5xl md:text-7xl text-gradient-gold animate-flicker leading-tight mb-10", children: "The End?" }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-6", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-ivory/90 text-lg md:text-xl leading-relaxed", children: "Leaving Rock Paper Scissors Studio doesn’t mean you have to look back with tears in your eyes. You are already living the dream in Goa, surrounded by peaceful beaches and quiet mornings. We can already picture you doing your sunrise yoga by the ocean, channeling your inner Shah Rukh Khan swagger, and finally enjoying a life where there are absolutely zero operational crises or junior resources to manage." }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-ivory/90 text-lg md:text-xl leading-relaxed", children: "Even though you are moving on to your next big adventure, your story here will always be our favorite. As you start this beautiful new chapter, may Lord Shiva bless your path with endless peace and joy. We will miss you deeply, but we know the picture is far from over." }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "pt-8 border-t border-gold/30", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-script italic text-2xl md:text-4xl text-ivory mt-4", children: "With love, the RPS family" }) })
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-ivory/90 text-lg md:text-xl leading-relaxed", children: [
+        "Leaving Rock Paper Scissors Studio doesn’t mean you have to look back with tears in your eyes. You are already living the dream in Goa surrounded by peaceful beaches and quiet mornings. We can already picture you doing your sunrise yoga by the ocean, channeling your inner Shah Rukh Khan swagger, and finally enjoying a life where there are absolutely zero operational crises or junior resources to manage. Because remember, ",
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: "picture abhi baaki hai mere dost" }),
+        "."
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-ivory/90 text-lg md:text-xl leading-relaxed", children: "Even though you are moving on to your next big adventure, your story here will always be our favorite. As you start this beautiful new chapter, may Lord Shiva bless your path with endless peace and joy. We will miss you deeply but we know the magic is far from over." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "pt-8 border-t border-gold/30", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "font-script italic text-2xl md:text-4xl text-ivory mt-4 flex items-center justify-center gap-3", children: [
+        "With love, the ",
+        /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: rpsLogo, alt: "Rock Paper Scissors Logo", className: "h-10 md:h-14 w-auto inline-block opacity-90" }),
+        " family"
+      ] }) })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-14 flex items-center justify-center gap-6 text-gold/60 text-2xl", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "🎬" }),
@@ -309,7 +331,7 @@ function Finale() {
       /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "🕉️" }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "★" })
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mt-10 font-poster tracking-[0.5em] text-gold/40 text-xs", children: "★ THE END ★   ( OF THIS REEL ONLY )" })
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mt-10 font-poster tracking-[0.5em] text-gold/40 text-xs", children: "★ THE END ★" })
   ] }) });
 }
 function IntermissionDivider({ label }) {

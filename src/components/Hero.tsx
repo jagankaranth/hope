@@ -1,4 +1,5 @@
 import heroBg from "@/assets/hero-bg.jpg";
+import rpsLogo from "@/assets/rock_paper_scissors_logo.svg";
 
 export function Hero() {
   return (
@@ -49,8 +50,9 @@ export function Hero() {
 
           {/* Tiny "presents" line above */}
           <div className="text-center mb-6 md:mb-16 animate-float-up">
-            <div className="font-poster text-[10px] md:text-xs tracking-[0.5em] text-ivory/60">
-              ROCK · PAPER · SCISSORS &nbsp;PRESENTS
+            <div className="font-poster text-[10px] md:text-xs tracking-[0.5em] text-ivory/60 flex flex-col items-center justify-center gap-3">
+              <img src={rpsLogo} alt="Rock Paper Scissors Logo" className="h-8 md:h-12 w-auto opacity-80" />
+              <span>PRESENTS</span>
             </div>
           </div>
 
@@ -73,7 +75,7 @@ export function Hero() {
               <br className="hidden md:block" /> Naa Kehna
             </div>
             <div className="font-poster text-[10px] md:text-xs tracking-[0.25em] text-ivory/70 mt-2">
-              — NEVER SAY GOODBYE —
+              NEVER SAY GOODBYE
             </div>
           </div>
         </div>
@@ -82,10 +84,7 @@ export function Hero() {
       {/* Tagline strip */}
       <div className="relative z-10 text-center px-6 mt-6 md:mt-2">
         <p className="font-script italic text-lg md:text-2xl text-ivory/90">
-          “Picture abhi baaki hai, mere dost.”
-        </p>
-        <p className="font-poster text-[10px] md:text-xs tracking-[0.4em] text-gold/70 mt-2">
-          — A BOLLYWOOD FAREWELL IN FIVE REELS —
+          Picture abhi baaki hai, mere dost.
         </p>
       </div>
 
@@ -102,23 +101,14 @@ export function Hero() {
           </div>
           <div>
             <div className="font-poster text-[9px] tracking-[0.3em] text-gold/70">CHOREOGRAPHY</div>
-            <div className="font-script italic text-ivory mt-1">Yoga &amp; Susegad</div>
+            <div className="font-script italic text-ivory mt-1">Yoga &amp; Inner Peace</div>
           </div>
           <div>
             <div className="font-poster text-[9px] tracking-[0.3em] text-gold/70">PRODUCED BY</div>
             <div className="font-script italic text-ivory mt-1">The Whole Team</div>
           </div>
         </div>
-        <div className="flex items-center justify-center gap-4 pb-5">
-          <a
-            href="#leading-lady"
-            className="group inline-flex items-center gap-3 font-poster text-xs md:text-sm tracking-[0.3em] text-gold hover:text-gold-bright transition-colors"
-          >
-            <span className="inline-block h-px w-10 bg-gold group-hover:w-16 transition-all" />
-            <span>ROLL THE OPENING CREDITS</span>
-            <span className="inline-block h-px w-10 bg-gold group-hover:w-16 transition-all" />
-          </a>
-        </div>
+
       </div>
     </section>
   );

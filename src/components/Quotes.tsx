@@ -3,42 +3,67 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import React from "react";
 import { Label } from "@/components/ui/label";
 import { Quote as QuoteIcon, Plus, X } from "lucide-react";
 
-type Quote = { id: string; text: string; by: string };
+type Quote = { id: string; text: React.ReactNode; by: string };
 
 const STORAGE_KEY = "pavitra-quotes-v2";
 
 const staticQuotes: Quote[] = [
   {
     id: "q1",
-    text: "Whenever RPS felt like a chaotic movie set, you brought the perfect Zen energy. Between reminding us to breathe and dropping SRK dialogues, you were the truest 'Om Shanti Om' of the studio.",
+    text: (
+      <>
+        Whenever RPS felt like a chaotic movie set, you brought the perfect Zen energy. Between reminding us to breathe and dropping SRK dialogues, you were the truest <span className="font-script italic text-gold-bright">Om Shanti Om</span> of the studio.
+      </>
+    ),
     by: "A grateful Team Lead",
   },
   {
     id: "q2",
-    text: "Pavitra managed operations like she manages her Yoga poses—with perfect balance and an unwavering focus. And whenever we needed strength, her 'Har Har Mahadev' spirit was contagious.",
+    text: (
+      <>
+        Pavitra managed operations like she manages her Yoga poses with perfect balance and an unwavering focus. And whenever we needed strength, her Har Har Mahadev spirit was contagious. <span className="font-script italic text-gold-bright">Sachi mohabbat zindagi mein sirf ek baar hoti hai</span>, and a leader like you comes only once too.
+      </>
+    ),
     by: "The Ops Squad",
   },
   {
     id: "q3",
-    text: "You always said the universe conspires to make things happen. Thank you for conspiring to make our time at RPS so incredibly smooth. Enjoy those beautiful Goan sunsets!",
+    text: (
+      <>
+        You always said the universe conspires to make things happen. <span className="font-script italic text-gold-bright">Itni shiddat se maine tumhe paane ki koshish ki hai, ki har zarre ne mujhe tumse milane ki saazish ki hai.</span> Thank you for conspiring to make our time at RPS so incredibly smooth. Enjoy those beautiful Goan sunsets!
+      </>
+    ),
     by: "The Design Team",
   },
   {
     id: "q4",
-    text: "Life is very unfair because the person leaving us is not just our Head of Operations but also our spiritual anchor. May Lord Shiva bless your next big blockbuster journey.",
+    text: (
+      <>
+        Life is very unfair because the person leaving us is not just our Head of Operations but also our spiritual anchor. <span className="font-script italic text-gold-bright">Kuch kuch hota hai</span> when we think about you leaving. May Lord Shiva bless your next big blockbuster journey.
+      </>
+    ),
     by: "Everyone, slightly off-balance",
   },
   {
     id: "q5",
-    text: "From clearing payments to restoring inner peace, no one else could channel 'Main Hoon Na' energy quite like you. Keep spreading the magic, Pavitra.",
+    text: (
+      <>
+        From clearing payments to restoring inner peace, no one else could channel <span className="font-script italic text-gold-bright">Main Hoon Na</span> energy quite like you. Keep spreading the magic, Pavitra.
+      </>
+    ),
     by: "Shalini from Finance",
   },
   {
     id: "q6",
-    text: "Bade bade studios mein aisi operations head baar baar nahi milti. We will miss your Yoga tips, your Goan vibes, and most of all, your heart.",
+    text: (
+      <>
+        <span className="font-script italic text-gold-bright">Bade bade studios mein</span> aisi operations head baar baar nahi milti. We will miss your Yoga tips, your Goan vibes, and most of all, your beautiful heart.
+      </>
+    ),
     by: "The Entire RPS Family",
   },
 ];
@@ -69,7 +94,7 @@ export function Quotes() {
             >
               <QuoteIcon className="h-8 w-8 text-gold/60 mb-3" />
               <p className="font-script italic text-lg md:text-xl text-ivory leading-relaxed">
-                "{q.text}"
+                {q.text}
               </p>
 
               <div className="mt-5 flex items-center gap-3">
