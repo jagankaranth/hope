@@ -327,7 +327,7 @@ function Quotes() {
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid md:grid-cols-2 gap-6", children: quotes.map((q, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
       Card,
       {
-        className: `group relative bg-background/40 backdrop-blur border-gold/20 p-6 md:p-8 hover:border-gold/60 transition-all ${q.by === "Chandini (Our Boss)" || q.by === "Jagan Karanth" ? "md:col-span-2" : ""}`,
+        className: "group relative bg-background/40 backdrop-blur border-gold/20 p-6 md:p-8 hover:border-gold/60 transition-all",
         children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(Quote, { className: "h-8 w-8 text-gold/60 mb-3" }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-script italic text-lg md:text-xl text-ivory leading-relaxed", children: q.text }),

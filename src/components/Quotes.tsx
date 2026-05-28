@@ -142,9 +142,7 @@ export function Quotes() {
           {quotes.map((q, i) => (
             <Card
               key={q.id}
-              className={`group relative bg-background/40 backdrop-blur border-gold/20 p-6 md:p-8 hover:border-gold/60 transition-all ${
-                q.by === "Chandini (Our Boss)" || q.by === "Jagan Karanth" ? "md:col-span-2" : ""
-              }`}
+              className="group relative bg-background/40 backdrop-blur border-gold/20 p-6 md:p-8 hover:border-gold/60 transition-all"
             >
               <QuoteIcon className="h-8 w-8 text-gold/60 mb-3" />
               <p className="font-script italic text-lg md:text-xl text-ivory leading-relaxed">
