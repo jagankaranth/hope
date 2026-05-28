@@ -21,8 +21,8 @@ export function Finale() {
           </p>
           
           <div className="pt-8 border-t border-gold/30">
-            <p className="font-script italic text-2xl md:text-4xl text-ivory mt-4 flex items-center justify-center gap-3">
-              With love, the <img src={rpsLogo} alt="Rock Paper Scissors Logo" className="h-10 md:h-14 w-auto inline-block opacity-90" /> family
+            <p className="font-script italic text-2xl md:text-4xl text-ivory mt-4 flex items-center justify-center gap-3 flex-wrap">
+              Lots of love from the <img src={rpsLogo} alt="Rock Paper Scissors Logo" className="h-10 md:h-14 w-auto inline-block opacity-90" /> family
             </p>
           </div>
         </div>
