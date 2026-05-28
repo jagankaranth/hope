@@ -1,12 +1,23 @@
 
-import p1 from "@/assets/placeholder-1.jpg";
-import p2 from "@/assets/placeholder-2.jpg";
-import p3 from "@/assets/placeholder-3.jpg";
+import r1 from "@/assets/images/reel01.jpg";
+import r2 from "@/assets/images/reel02.jpg";
+import r3 from "@/assets/images/reel03.jpg";
+import r4 from "@/assets/images/reel04.jpg";
+import r5 from "@/assets/images/reel05.jpg";
+import r6 from "@/assets/images/reel06.jpg";
+import r7 from "@/assets/images/reel07.jpg";
+import r8 from "@/assets/images/reel08.jpg";
+import r9 from "@/assets/images/reel09.jpg";
+import r10 from "@/assets/images/reel10.jpg";
+import r11 from "@/assets/images/reel11.jpg";
+import r12 from "@/assets/images/reel12.jpg";
+import r13 from "@/assets/images/reel13.jpg";
+import r14 from "@/assets/images/reel14.jpg";
 import { useState } from "react";
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 
 const STORAGE_KEY = "pavitra-strip-v2";
-const seed = [p1, p2, p3, p1, p2, p3, p1];
+const seed = [r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12, r13, r14];
 
 export function PhotoStrip() {
   const photos = seed;
@@ -39,8 +50,8 @@ export function PhotoStrip() {
       <div className="relative -mx-6 md:-mx-12 overflow-x-auto pb-6 film-grain">
         <div className="bg-[#0a0608] py-2 shadow-poster">
           <Sprockets count={20} />
-          <div className="px-4 py-5">
-            <div className="flex gap-4">
+          <div className="py-5">
+            <div className="flex gap-4 pl-6 pr-32 md:pl-12 md:pr-64">
               {photos.map((src, i) => (
                 <div key={i} className="relative group shrink-0">
                   <div 
