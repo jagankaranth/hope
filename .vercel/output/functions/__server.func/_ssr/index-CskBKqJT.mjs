@@ -1,7 +1,36 @@
 import { j as jsxRuntimeExports, r as reactExports } from "../_libs/react.mjs";
 import { c as clsx } from "../_libs/clsx.mjs";
 import { t as twMerge } from "../_libs/tailwind-merge.mjs";
-import { Q as Quote } from "../_libs/lucide-react.mjs";
+import { R as Root, P as Portal, a as Content, C as Close, T as Title, O as Overlay, D as Description } from "../_libs/radix-ui__react-dialog.mjs";
+import { Q as Quote, X } from "../_libs/lucide-react.mjs";
+import "../_libs/radix-ui__primitive.mjs";
+import "../_libs/radix-ui__react-compose-refs.mjs";
+import "../_libs/radix-ui__react-context.mjs";
+import "../_libs/radix-ui__react-id.mjs";
+import "../_libs/@radix-ui/react-use-layout-effect+[...].mjs";
+import "../_libs/@radix-ui/react-use-controllable-state+[...].mjs";
+import "../_libs/@radix-ui/react-dismissable-layer+[...].mjs";
+import "../_libs/radix-ui__react-primitive.mjs";
+import "../_libs/react-dom.mjs";
+import "util";
+import "crypto";
+import "async_hooks";
+import "stream";
+import "../_libs/radix-ui__react-slot.mjs";
+import "../_libs/@radix-ui/react-use-callback-ref+[...].mjs";
+import "../_libs/@radix-ui/react-use-escape-keydown+[...].mjs";
+import "../_libs/radix-ui__react-focus-scope.mjs";
+import "../_libs/radix-ui__react-portal.mjs";
+import "../_libs/radix-ui__react-presence.mjs";
+import "../_libs/radix-ui__react-focus-guards.mjs";
+import "../_libs/react-remove-scroll.mjs";
+import "tslib";
+import "../_libs/react-remove-scroll-bar.mjs";
+import "../_libs/react-style-singleton.mjs";
+import "../_libs/get-nonce.mjs";
+import "../_libs/use-sidecar.mjs";
+import "../_libs/use-callback-ref.mjs";
+import "../_libs/aria-hidden.mjs";
 const heroBg = "/assets/hero-bg-BC23P0zG.jpg";
 const rpsLogo = "/assets/rock_paper_scissors_logo-Dy1ErWaK.svg";
 function Hero() {
@@ -277,9 +306,64 @@ function Quotes() {
 const p1 = "/assets/placeholder-1-UCQ0_9jH.jpg";
 const p2 = "/assets/placeholder-2-B0OkaTpe.jpg";
 const p3 = "/assets/placeholder-3-NpWVDGvz.jpg";
+const Dialog = Root;
+const DialogPortal = Portal;
+const DialogOverlay = reactExports.forwardRef(({ className, ...props }, ref) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+  Overlay,
+  {
+    ref,
+    className: cn(
+      "fixed inset-0 z-50 bg-black/80  data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0",
+      className
+    ),
+    ...props
+  }
+));
+DialogOverlay.displayName = Overlay.displayName;
+const DialogContent = reactExports.forwardRef(({ className, children, ...props }, ref) => /* @__PURE__ */ jsxRuntimeExports.jsxs(DialogPortal, { children: [
+  /* @__PURE__ */ jsxRuntimeExports.jsx(DialogOverlay, {}),
+  /* @__PURE__ */ jsxRuntimeExports.jsxs(
+    Content,
+    {
+      ref,
+      className: cn(
+        "fixed left-[50%] top-[50%] z-50 grid w-full max-w-lg translate-x-[-50%] translate-y-[-50%] gap-4 border bg-background p-6 shadow-lg duration-200 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 sm:rounded-lg",
+        className
+      ),
+      ...props,
+      children: [
+        children,
+        /* @__PURE__ */ jsxRuntimeExports.jsxs(Close, { className: "absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background cursor-pointer transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(X, { className: "h-4 w-4" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "sr-only", children: "Close" })
+        ] })
+      ]
+    }
+  )
+] }));
+DialogContent.displayName = Content.displayName;
+const DialogTitle = reactExports.forwardRef(({ className, ...props }, ref) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+  Title,
+  {
+    ref,
+    className: cn("text-lg font-semibold leading-none tracking-tight", className),
+    ...props
+  }
+));
+DialogTitle.displayName = Title.displayName;
+const DialogDescription = reactExports.forwardRef(({ className, ...props }, ref) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+  Description,
+  {
+    ref,
+    className: cn("text-sm text-muted-foreground", className),
+    ...props
+  }
+));
+DialogDescription.displayName = Description.displayName;
 const seed = [p1, p2, p3, p1, p2, p3, p1];
 function PhotoStrip() {
   const photos = seed;
+  const [selectedPhoto, setSelectedPhoto] = reactExports.useState(null);
   const Sprockets = ({ count = 14 }) => /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex justify-between items-center px-2 py-1 bg-background", children: Array.from({ length: count }).map((_, j) => /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "block h-3 w-4 rounded-[2px] bg-foreground/10" }, j)) });
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { id: "film-reel", className: "relative py-20 px-6 md:px-12", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "max-w-7xl mx-auto flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-10", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
@@ -294,18 +378,36 @@ function PhotoStrip() {
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-[#0a0608] py-2 shadow-poster", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx(Sprockets, { count: 20 }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "px-4 py-5", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex gap-4", children: photos.map((src, i) => /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "relative group shrink-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "img",
+          "div",
           {
-            src,
-            alt: `Frame ${i + 1}`,
-            loading: "lazy",
-            className: "h-72 md:h-96 w-56 md:w-72 object-cover border-[3px] border-foreground/20"
+            onClick: () => setSelectedPhoto(src),
+            className: "cursor-pointer transition-transform hover:scale-105 duration-300",
+            children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "img",
+              {
+                src,
+                alt: `Frame ${i + 1}`,
+                loading: "lazy",
+                className: "h-72 md:h-96 w-56 md:w-72 object-cover border-[3px] border-foreground/20"
+              }
+            )
           }
         ) }, i)) }) }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(Sprockets, { count: 20 })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-center mt-4 font-poster text-[10px] tracking-[0.4em] text-gold/60", children: "◀  SCROLL THE REEL  ▶" })
-    ] })
+    ] }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(Dialog, { open: !!selectedPhoto, onOpenChange: (open) => !open && setSelectedPhoto(null), children: /* @__PURE__ */ jsxRuntimeExports.jsxs(DialogContent, { className: "max-w-[90vw] max-h-[90vh] bg-transparent border-none shadow-none flex items-center justify-center p-0", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx(DialogTitle, { className: "sr-only", children: "Photo View" }),
+      selectedPhoto && /* @__PURE__ */ jsxRuntimeExports.jsx(
+        "img",
+        {
+          src: selectedPhoto,
+          alt: "Enlarged view",
+          className: "max-w-full max-h-[85vh] object-contain rounded-md"
+        }
+      )
+    ] }) })
   ] });
 }
 function Finale() {

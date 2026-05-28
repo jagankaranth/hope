@@ -2,12 +2,15 @@
 import p1 from "@/assets/placeholder-1.jpg";
 import p2 from "@/assets/placeholder-2.jpg";
 import p3 from "@/assets/placeholder-3.jpg";
+import { useState } from "react";
+import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 
 const STORAGE_KEY = "pavitra-strip-v2";
 const seed = [p1, p2, p3, p1, p2, p3, p1];
 
 export function PhotoStrip() {
   const photos = seed;
+  const [selectedPhoto, setSelectedPhoto] = useState<string | null>(null);
 
   // Sprocket holes generator
   const Sprockets = ({ count = 14 }: { count?: number }) => (
@@ -40,14 +43,17 @@ export function PhotoStrip() {
             <div className="flex gap-4">
               {photos.map((src, i) => (
                 <div key={i} className="relative group shrink-0">
-                  <img
-                    src={src}
-                    alt={`Frame ${i + 1}`}
-                    loading="lazy"
-                    className="h-72 md:h-96 w-56 md:w-72 object-cover border-[3px] border-foreground/20"
-                  />
-
-
+                  <div 
+                    onClick={() => setSelectedPhoto(src)}
+                    className="cursor-pointer transition-transform hover:scale-105 duration-300"
+                  >
+                    <img
+                      src={src}
+                      alt={`Frame ${i + 1}`}
+                      loading="lazy"
+                      className="h-72 md:h-96 w-56 md:w-72 object-cover border-[3px] border-foreground/20"
+                    />
+                  </div>
                 </div>
               ))}
 
@@ -59,6 +65,19 @@ export function PhotoStrip() {
           ◀  SCROLL THE REEL  ▶
         </div>
       </div>
+
+      <Dialog open={!!selectedPhoto} onOpenChange={(open) => !open && setSelectedPhoto(null)}>
+        <DialogContent className="max-w-[90vw] max-h-[90vh] bg-transparent border-none shadow-none flex items-center justify-center p-0">
+          <DialogTitle className="sr-only">Photo View</DialogTitle>
+          {selectedPhoto && (
+            <img 
+              src={selectedPhoto} 
+              alt="Enlarged view" 
+              className="max-w-full max-h-[85vh] object-contain rounded-md" 
+            />
+          )}
+        </DialogContent>
+      </Dialog>
     </section>
   );
 }

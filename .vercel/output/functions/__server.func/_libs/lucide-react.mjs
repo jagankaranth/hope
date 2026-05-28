@@ -75,7 +75,7 @@ const createLucideIcon = (iconName, iconNode) => {
   Component.displayName = toPascalCase(iconName);
   return Component;
 };
-const __iconNode = [
+const __iconNode$1 = [
   [
     "path",
     {
@@ -91,7 +91,13 @@ const __iconNode = [
     }
   ]
 ];
-const Quote = createLucideIcon("quote", __iconNode);
+const Quote = createLucideIcon("quote", __iconNode$1);
+const __iconNode = [
+  ["path", { d: "M18 6 6 18", key: "1bl5f8" }],
+  ["path", { d: "m6 6 12 12", key: "d8bk6v" }]
+];
+const X = createLucideIcon("x", __iconNode);
 export {
-  Quote as Q
+  Quote as Q,
+  X
 };
