@@ -16,8 +16,7 @@ export function Hero() {
       <div className="relative z-10 border-b border-gold/30 bg-background/40 backdrop-blur-sm">
         <div className="flex items-center justify-between px-6 py-3 md:px-12 text-[10px] md:text-xs font-poster tracking-[0.35em] text-gold">
           <span>★ NOW SHOWING ★</span>
-          <span className="hidden md:inline text-ivory/60">SCREEN 01 · ALL SHOWS HOUSEFULL</span>
-          <span>★ ONE NIGHT ONLY ★</span>
+          <span className="text-ivory/60">SCREEN 01 · ALL SHOWS HOUSEFULL</span>
         </div>
       </div>
 

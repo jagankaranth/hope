@@ -47,8 +47,7 @@ function Hero() {
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-gradient-to-b from-background/50 via-background/65 to-background" }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "relative z-10 border-b border-gold/30 bg-background/40 backdrop-blur-sm", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between px-6 py-3 md:px-12 text-[10px] md:text-xs font-poster tracking-[0.35em] text-gold", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "★ NOW SHOWING ★" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "hidden md:inline text-ivory/60", children: "SCREEN 01 · ALL SHOWS HOUSEFULL" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "★ ONE NIGHT ONLY ★" })
+      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-ivory/60", children: "SCREEN 01 · ALL SHOWS HOUSEFULL" })
     ] }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "hidden md:flex absolute top-24 left-6 z-10 flex-col items-center gap-1 border border-gold/50 px-3 py-2 rotate-[-6deg] bg-background/50", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-poster text-[9px] tracking-[0.3em] text-gold", children: "CERTIFIED" }),
