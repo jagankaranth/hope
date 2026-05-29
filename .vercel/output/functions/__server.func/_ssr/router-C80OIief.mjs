@@ -162,7 +162,7 @@ function RootComponent() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(Outlet, {})
   ] });
 }
-const $$splitComponentImporter = () => import("./index-82lHPG_P.mjs");
+const $$splitComponentImporter = () => import("./index-gUxWwi00.mjs");
 const Route = createFileRoute("/")({
   head: () => ({
     meta: [{

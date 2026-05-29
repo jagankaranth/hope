@@ -13,6 +13,15 @@ const STORAGE_KEY = "pavitra-quotes-v2";
 
 const staticQuotes: Quote[] = [
   {
+    id: "q_amandeep",
+    text: (
+      <>
+        Thank you for your kindness, support and dedication. You will be missed by all of us, and we wish you success and happiness in your next journey.
+      </>
+    ),
+    by: "Amandeep",
+  },
+  {
     id: "q_vineet",
     text: (
       <>
