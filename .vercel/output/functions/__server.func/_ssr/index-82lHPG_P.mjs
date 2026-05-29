@@ -225,6 +225,11 @@ const CardFooter = reactExports.forwardRef(
 CardFooter.displayName = "CardFooter";
 const staticQuotes = [
   {
+    id: "q_vineet",
+    text: /* @__PURE__ */ jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, { children: "Wishing you all the very best, Pavitra. It’s been a pleasure working with you, and I hope your next chapter brings you great success and happiness!" }),
+    by: "Vineet Chopdekar"
+  },
+  {
     id: "q_prajwal",
     text: /* @__PURE__ */ jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, { children: "Pavitra, thank you for being such an amazing part of the RPS team! Your energy and positive vibe in the studio will be truly missed. Wishing you the absolute best in your next adventure—keep doing great things!" }),
     by: "Prajwal"
@@ -369,6 +374,7 @@ const r11 = "/assets/reel11-CExIBzdq.jpg";
 const r12 = "/assets/reel12-Djmg817H.jpg";
 const r13 = "/assets/reel13-BwuqNqO-.jpg";
 const r14 = "/assets/reel14-BR7DGSGu.jpg";
+const r15 = "/assets/reel15-D-MzIlvR.jpeg";
 const Dialog = Root;
 const DialogPortal = Portal;
 const DialogOverlay = reactExports.forwardRef(({ className, ...props }, ref) => /* @__PURE__ */ jsxRuntimeExports.jsx(
@@ -423,7 +429,7 @@ const DialogDescription = reactExports.forwardRef(({ className, ...props }, ref)
   }
 ));
 DialogDescription.displayName = Description.displayName;
-const seed = [r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12, r13, r14];
+const seed = [r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12, r13, r14, r15];
 function PhotoStrip() {
   const photos = seed;
   const [selectedPhoto, setSelectedPhoto] = reactExports.useState(null);

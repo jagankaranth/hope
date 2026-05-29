@@ -13,6 +13,15 @@ const STORAGE_KEY = "pavitra-quotes-v2";
 
 const staticQuotes: Quote[] = [
   {
+    id: "q_vineet",
+    text: (
+      <>
+        Wishing you all the very best, Pavitra. It’s been a pleasure working with you, and I hope your next chapter brings you great success and happiness!
+      </>
+    ),
+    by: "Vineet Chopdekar",
+  },
+  {
     id: "q_prajwal",
     text: (
       <>

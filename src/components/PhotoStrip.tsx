@@ -13,11 +13,12 @@ import r11 from "@/assets/images/reel11.jpg";
 import r12 from "@/assets/images/reel12.jpg";
 import r13 from "@/assets/images/reel13.jpg";
 import r14 from "@/assets/images/reel14.jpg";
+import r15 from "@/assets/images/reel15.jpeg";
 import { useState } from "react";
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 
 const STORAGE_KEY = "pavitra-strip-v2";
-const seed = [r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12, r13, r14];
+const seed = [r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12, r13, r14, r15];
 
 export function PhotoStrip() {
   const photos = seed;
