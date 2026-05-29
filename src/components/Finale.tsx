@@ -17,7 +17,7 @@ export function Finale() {
             Leaving Rock Paper Scissors Studio doesn’t mean you have to look back with tears in your eyes. You are already living the dream in Goa surrounded by peaceful beaches and quiet mornings. We can already picture you doing your sunrise yoga by the ocean, channeling your inner Shah Rukh Khan swagger, and finally enjoying a life where there are absolutely zero operational crises or junior resources to manage. Because remember, <span className="font-script italic text-gold-bright">picture abhi baaki hai mere dost</span>.
           </p>
           <p className="text-ivory/90 text-lg md:text-xl leading-relaxed">
-            Even though you are moving on to your next big adventure, your story here will always be our favorite. As you start this beautiful new chapter, may Lord Shiva bless your path with endless peace and joy. We will miss you deeply but we know the magic is far from over.
+            Even though you are moving on to your next big adventure, your story here will always be our favorite. As you start this beautiful new chapter, may your path be blessed with endless peace and joy. We will miss you deeply but we know the magic is far from over.
           </p>
           
           <div className="pt-8 border-t border-gold/30">
@@ -36,7 +36,7 @@ export function Finale() {
         </div>
 
         <div className="mt-10 font-poster tracking-[0.5em] text-gold/40 text-xs">
-          ★ THE END ★
+          ★ HAPPY BEGINNINGS ✨ ★
         </div>
       </div>
     </section>
