@@ -13,6 +13,15 @@ const STORAGE_KEY = "pavitra-quotes-v2";
 
 const staticQuotes: Quote[] = [
   {
+    id: "q_prajwal",
+    text: (
+      <>
+        Pavitra, thank you for being such an amazing part of the RPS team! Your energy and positive vibe in the studio will be truly missed. Wishing you the absolute best in your next adventure—keep doing great things!
+      </>
+    ),
+    by: "Prajwal",
+  },
+  {
     id: "q_parvathy",
     text: (
       <>

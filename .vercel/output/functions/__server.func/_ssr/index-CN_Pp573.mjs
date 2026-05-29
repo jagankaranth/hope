@@ -225,6 +225,11 @@ const CardFooter = reactExports.forwardRef(
 CardFooter.displayName = "CardFooter";
 const staticQuotes = [
   {
+    id: "q_prajwal",
+    text: /* @__PURE__ */ jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, { children: "Pavitra, thank you for being such an amazing part of the RPS team! Your energy and positive vibe in the studio will be truly missed. Wishing you the absolute best in your next adventure—keep doing great things!" }),
+    by: "Prajwal"
+  },
+  {
     id: "q_parvathy",
     text: /* @__PURE__ */ jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, { children: "Pavitra, thank you for everything, for always being so kind and supportive. It’s been amazing working with you, and you’ll truly be missed. Wishing you all the best for what’s ahead." }),
     by: "Parvathy Pillai"
