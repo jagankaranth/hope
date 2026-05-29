@@ -4,8 +4,8 @@ const traits = [
   { label: "Genre", value: "Filmy Yogini" },
   { label: "Soundtrack", value: "Anything Shah Rukh" },
   { label: "Favourite Set", value: "A Quiet Goan Beach" },
-  { label: "Signature Pose", value: "Tadasana at Sunrise" },
-  { label: "Devotion", value: "Har Har Mahadev 🔱" },
+  { label: "Signature Pose", value: "Animal Flow" },
+  { label: "Devotion", value: "Hare Krishna Hare Ram" },
   { label: "Box Office", value: "Always a Blockbuster" },
 ];
 
@@ -47,7 +47,7 @@ export function StarringRole() {
               As the Head of Project Operations and Excellence at Rock Paper Scissors Studio, Pavitra didn’t just manage workflows but directed our daily lives with the flair of a classic Shah Rukh Khan blockbuster. Whether she was clearing payments or preventing the entire studio from descending into complete chaos, she did it all with the unshakable balance of a seasoned yoga instructor. After all, she knew that <span className="font-script italic text-gold-bright">bade bade studios mein aisi chhoti chhoti baatein hoti rehti hai</span>.
             </p>
             <p>
-              While the rest of the team scrambled to meet deadlines, she remained our spiritual anchor. She drew quiet strength from her devotion to Lord Shiva to keep us all grounded. Every operational fire was put out with a gentle reminder to breathe, a perfectly timed Bollywood dialogue, and a warm smile. She wasn't just keeping the studio running. She was the heartbeat of our everyday production, spreading that <span className="font-script italic text-gold-bright">Main Hoon Na</span> energy whenever we needed saving.
+              While the rest of the team scrambled to meet deadlines, she remained our spiritual anchor. She drew quiet strength from her spiritual devotion to keep us all grounded. Every operational fire was put out with a gentle reminder to breathe, a perfectly timed Bollywood dialogue, and a warm smile. She wasn't just keeping the studio running. She was the heartbeat of our everyday production, spreading that <span className="font-script italic text-gold-bright">Main Hoon Na</span> energy whenever we needed saving.
             </p>
           </div>
 

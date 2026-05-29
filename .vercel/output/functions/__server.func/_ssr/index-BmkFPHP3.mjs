@@ -132,8 +132,8 @@ const traits = [
   { label: "Genre", value: "Filmy Yogini" },
   { label: "Soundtrack", value: "Anything Shah Rukh" },
   { label: "Favourite Set", value: "A Quiet Goan Beach" },
-  { label: "Signature Pose", value: "Tadasana at Sunrise" },
-  { label: "Devotion", value: "Har Har Mahadev 🔱" },
+  { label: "Signature Pose", value: "Animal Flow" },
+  { label: "Devotion", value: "Hare Krishna Hare Ram" },
   { label: "Box Office", value: "Always a Blockbuster" }
 ];
 function StarringRole() {
@@ -170,7 +170,7 @@ function StarringRole() {
           "."
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
-          "While the rest of the team scrambled to meet deadlines, she remained our spiritual anchor. She drew quiet strength from her devotion to Lord Shiva to keep us all grounded. Every operational fire was put out with a gentle reminder to breathe, a perfectly timed Bollywood dialogue, and a warm smile. She wasn't just keeping the studio running. She was the heartbeat of our everyday production, spreading that ",
+          "While the rest of the team scrambled to meet deadlines, she remained our spiritual anchor. She drew quiet strength from her spiritual devotion to keep us all grounded. Every operational fire was put out with a gentle reminder to breathe, a perfectly timed Bollywood dialogue, and a warm smile. She wasn't just keeping the studio running. She was the heartbeat of our everyday production, spreading that ",
           /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-script italic text-gold-bright", children: "Main Hoon Na" }),
           " energy whenever we needed saving."
         ] })
@@ -237,7 +237,7 @@ const staticQuotes = [
   {
     id: "q2",
     text: /* @__PURE__ */ jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, { children: "Pavitra has been our Jack (of all trades) who not just started Project management but also started many new dimensions of RPS—from being reporting managers to their personal counsellor. Being their people manager to their human resource. Wore the hat of social media person to operations head. You name it and she has been part of it. Rather she has been the ROCK of Rock Paper Scissors and managed and executed many such unexpressed and unexpected roles in the company. She has been the only person whom I could rely and depend on and sometimes taken undue advantage too. It is so good and proud to see her take up the role of entrepreneur and starting her own journey which she always manifested for. So so proud and wish her the best. Hope u get many repeated customers and orders. Cheers to life." }),
-    by: "Chandini Maam"
+    by: "Chandni Chadha"
   },
   {
     id: "q3",
